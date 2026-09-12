@@ -1,6 +1,6 @@
 {
-  "markdownSha": "3b976957e3d3db60f3d448b84184455db27f92b88e41a56e779fb966b99dd5a5",
-  "words": 61607,
+  "markdownSha": "70b3d306b79b8354810b7ea80bea6daa3f7fc36fce404e2936895cf0fe7d97e0",
+  "words": 61605,
   "blocks": {
     "heading": 47,
     "quote": 81,
@@ -56,7 +56,7 @@
     "DELIVERY BY HAND",
     "Notes"
   ],
-  "footnotes": 301,
+  "footnotes": 302,
   "pageMarkers": 144,
   "poppler": "26.08.0"
 }
