@@ -1,4 +1,4 @@
-import { pageBreakContinuations, pipeline } from "@rtm/ingest";
+import { quoteListRunOns, pageBreakContinuations, pipeline } from "@rtm/ingest";
 
 /**
  * How this report is built. Owned by the report: every decision that shaped
@@ -18,6 +18,8 @@ export default pipeline({
     { path: "archive/Report-of-Special-Counsel-Smith-Volume-1-January-2025.pdf", sha256: "d0d26b1ff6fbe96e5280623c6467e70d867c306af768f9dd02556c87892d1e5c" },
   ],
   passes: [
+    // A quotation running over a page arrives as two (reportsthatmatter-38s.9).
+    quoteListRunOns(),
     // The scan is skewed: pdftotext insets some pages' first lines, so the
     // rest of a sentence from the page before reads as a block quotation, and
     // a paragraph that fills a whole page left its continuation on the next
