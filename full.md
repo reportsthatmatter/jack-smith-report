@@ -5,6 +5,7 @@ published_at: "January 2025"
 source_url: "https://www.justice.gov/storage/Report-of-Special-Counsel-Smith-Volume-1-January-2025.pdf"
 pages: 169
 footnotes: 291
+corrections: 3
 ---
 
 U.S. Department of Justice
@@ -215,7 +216,7 @@ Mr. Trump set the fraudulent elector plan into motion in early December, ensured
 
 %%page 13%%
 
-For the most part, the co-conspirators deceived Mr. Trump's elector nominees in the targeted states by falsely claiming that their electoral votes would be used only if ongoing litigation were resolved in Mr. Trump's favor.[^47] Indeed, the co-conspirators deliberately withheld from the elector nommees information showing otherwise.[^48] This deception was crucial to the conspiracy, as many who participated as fraudulent electors would not have done so had they known the true extent of the co-conspirators' plans.[^49] Not all of Mr. Trump's elector nominees were persuaded, forcing the co-conspirators to recruit substitutes in some of the targeted states. 5° For example, one Trump elector nominee in Pennsylvania recognized the plan as "illegal" and an attempt "to overthrow the Government," and he declined to participate.[^51] Conversely, a select few of Mr. Trump's agents and elector nominees had insight into the ultimate plan to use the fraudulent elector certificates to disrupt the congressional certification on January 6 and willingly assisted.[^52] On December 9, after a phone call with Co-Conspirator 5, one of the Campaign's agents wrote in an email that Co-Conspirator S's plan for the electors to "send[] in 'fake' electoral votes to Pence" was "[k]ind ofwild/creative."[^53] Two and a half hours later, he replied to his own email and, as cover, wrote that "'alternative' votes is probably a better term than 'fake' votes" and that he agreed with a suggestion "to keep [the plan] under wraps until Congress counts the vote on Jan. 6th."[^54] In each of the targeted states, Mr. Trump and his co-conspirators successfully organized enough elector nominees and substitutes to gather on December 14, cast fraudulent electoral votes on his behalf, and send them to Washington, D.C., for the congressional certification 55-a fact that the RNC Chairwoman relayed to Mr. Trump on the evening of December 14.[^56]
+For the most part, the co-conspirators deceived Mr. Trump's elector nominees in the targeted states by falsely claiming that their electoral votes would be used only if ongoing litigation were resolved in Mr. Trump's favor.[^47] Indeed, the co-conspirators deliberately withheld from the elector nommees information showing otherwise.[^48] This deception was crucial to the conspiracy, as many who participated as fraudulent electors would not have done so had they known the true extent of the co-conspirators' plans.[^49] Not all of Mr. Trump's elector nominees were persuaded, forcing the co-conspirators to recruit substitutes in some of the targeted states.[^50] For example, one Trump elector nominee in Pennsylvania recognized the plan as "illegal" and an attempt "to overthrow the Government," and he declined to participate.[^51] Conversely, a select few of Mr. Trump's agents and elector nominees had insight into the ultimate plan to use the fraudulent elector certificates to disrupt the congressional certification on January 6 and willingly assisted.[^52] On December 9, after a phone call with Co-Conspirator 5, one of the Campaign's agents wrote in an email that Co-Conspirator S's plan for the electors to "send[] in 'fake' electoral votes to Pence" was "[k]ind ofwild/creative."[^53] Two and a half hours later, he replied to his own email and, as cover, wrote that "'alternative' votes is probably a better term than 'fake' votes" and that he agreed with a suggestion "to keep [the plan] under wraps until Congress counts the vote on Jan. 6th."[^54] In each of the targeted states, Mr. Trump and his co-conspirators successfully organized enough elector nominees and substitutes to gather on December 14, cast fraudulent electoral votes on his behalf, and send them to Washington, D.C., for the congressional certification[^55]—a fact that the RNC Chairwoman relayed to Mr. Trump on the evening of December 14.[^56]
 
 %%page 14%%
 
@@ -323,11 +324,7 @@ At around the same time as he issued his 6:01 p.m. Tweet, Mr. Trump tried to rea
 
 January 6 and, at 3:41 a.m. on January 7, Mr. Pence announced the certified results of the 2020 presidential election in favor of Mr. Biden.[^134]
 
-As he did in his 4:17 p.m. and 6:01 p.m. Tweets on January 6, Mr. Trump has provided additional evidence of his intent by continuing to support and ally himself with the people who attacked the Capitol. He has called them "patriots"[^135] and "hostaoes
-
-> b ' "[^136] reminisced about
-
-January 6 as a "beautiful day,"[^137] and championed the "January 6 Choir,"[^138] a group of January 6 defendants who, because of their dangerousness, are detained at the District of Columbia jail.[^139]
+As he did in his 4:17 p.m. and 6:01 p.m. Tweets on January 6, Mr. Trump has provided additional evidence of his intent by continuing to support and ally himself with the people who attacked the Capitol. He has called them "patriots"[^135] and "hostages,"[^136] reminisced about January 6 as a "beautiful day,"[^137] and championed the "January 6 Choir,"[^138] a group of January 6 defendants who, because of their dangerousness, are detained at the District of Columbia jail.[^139]
 
 %%page 33%%
 

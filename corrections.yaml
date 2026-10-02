@@ -16,4 +16,33 @@
 #     reason: small-font OCR; checked against the scan
 #     added: 2026-08-28
 version: 1
-corrections: []
+corrections:
+  # The OCR of '"hostages,"' is garbled, and the page's layout cut the sentence
+  # into a paragraph, a quotation and the paragraph after it. A `find` with a
+  # blank line spans the blocks and joins them (reportsthatmatter-2dw). Needs
+  # the @rtm/ingest release that carries spanning corrections. (The footnote
+  # marker is still a bare number with a space before it at this stage; it is
+  # linked later in the pipeline.)
+  - id: c-0001
+    where: { volume: 1, printed: 32 }
+    find: "\"hostaoes\n\n> b ' \" 136 reminisced about\n\nJanuary 6"
+    replace: "\"hostages,\" 136 reminisced about January 6"
+    reason: OCR garble of "hostages," split the sentence into a paragraph and a quotation; checked against the scan (PDF p.40, printed p.32)
+    added: 2026-10-02
+
+  # Superscript markers the OCR misread: note 50 as "5°" (printed p.14) and
+  # note 55 fused to the dash after it, "certification⁵⁵—a fact" read as
+  # "55-a" (printed p.15). Rewritten (note 50 to the plain "<space><number>"
+  # form the pipeline links, note 55 to its explicit reference, since no
+  # sentence punctuation precedes it for the linker to key on), so the notes attach to their text rather than showing
+  # only under "Notes not linked in the text" (reportsthatmatter-4yp).
+  - id: c-0002
+    find: "targeted states. 5° For example"
+    replace: "targeted states. 50 For example"
+    reason: superscript note 50 OCR'd as "5°"; checked against the scan (PDF p.22, printed p.14)
+    added: 2026-10-02
+  - id: c-0003
+    find: "congressional certification 55-a fact"
+    replace: "congressional certification[^55]—a fact"
+    reason: superscript note 55 followed by an em dash, OCR'd as "55-a"; checked against the scan (PDF p.23, printed p.15)
+    added: 2026-10-02
