@@ -1,0 +1,106 @@
+# Golden pages: ground truth for this report, read off the PDF page image and checked by `pnpm ingest verify`.
+# Format and rules: @rtm/ingest src/golden.ts and the site's docs/quality-harness.md ("Golden pages").
+# A page marked xfail is a known pipeline defect: it stays red here, verify stays green, and the bead says why.
+pages:
+  # First page of "The Results of the Investigation": a footnote marker on the heading, five lines carried over from page 9,
+  # and a paragraph that runs on to the next page.
+  - pdf: 10
+    printed: 2
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [I, G, B]
+    xfail: reportsthatmatter-pq0
+    xfail_only: [markers]
+    continues_previous: true
+    opens_with: "defenses that the Office expected Mr. Trump to raise at trial"
+    blocks:
+      - heading: "I. THE RESULTS OF THE INVESTIGATION"
+      - paragraph: {start: "In 2020, then-President Donald J. Trump ran for reelection", end: "in furtherance of his scheme.", notes: [2, 3]}
+      - paragraph: {start: "As set forth in the original and superseding indictments", continues: true}
+    footnotes: [1, 2, 3]
+    markers: [1, 2, 3]
+  # A paragraph whose last word is on the next page, where the footnotes' run-over text sits between the halves (class E, g1f).
+  - pdf: 21
+    printed: 13
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [E, B, M]
+    xfail: reportsthatmatter-n0l
+    xfail_only: [must_contain]
+    continues_previous: true
+    opens_with: "sent directions to the Trump electors in each targeted state"
+    blocks:
+      - paragraph: {start: "For the most part, the co-conspirators deceived", continues: true, notes: [47]}
+    footnotes: [45, 46, 47]
+    markers: [45, 46, 47]
+    must_contain: ["the co-conspirators deliberately withheld from the elector nominees information showing otherwise"]
+    must_not_contain: ["Co-Conspirator 5 to Co-Conspirator 1 12/13/2020"]
+  # An ordinary page: carried-over lines, one new paragraph, six markers.
+  - pdf: 30
+    printed: 22
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [ordinary, F]
+    continues_previous: true
+    opens_with: "proposals violated the ECA and were untested"
+    blocks:
+      - paragraph: {start: "That night, Mr. Trump used a speech in Dalton, Georgia", end: "has the power to act.”", notes: [91, 92, 93]}
+    footnotes: [88, 89, 90, 91, 92, 93]
+    markers: [88, 89, 90, 91, 92, 93]
+  # The page opens with the end of a paragraph that begins capitalised ("January 6 and, at 3:41 a.m."): class B, capitalised variant.
+  - pdf: 40
+    printed: 32
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [B, M, F]
+    xfail: reportsthatmatter-38s.10
+    xfail_only: [blocks, opens]
+    continues_previous: true
+    opens_with: "January 6 and, at 3:41 a.m. on January 7, Mr. Pence announced"
+    blocks:
+      - paragraph: {start: "As he did in his 4:17 p.m. and 6:01 p.m. Tweets", end: "District of Columbia jail.", notes: [135, 136, 137, 138, 139]}
+    footnotes: [134, 135, 136, 137, 138, 139]
+    markers: [134, 135, 136, 137, 138, 139]
+    must_contain: ["He has called them patriots and hostages reminisced about January 6 as a beautiful day"]
+  # A skewed scan: the first lines of a paragraph carried over from page 43 are set as their own block, with an OCR degree sign.
+  - pdf: 44
+    printed: 36
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [B, C, M]
+    xfail: reportsthatmatter-38s.10
+    xfail_only: [blocks, markers, must_contain, opens]
+    continues_previous: true
+    opens_with: "House official who engaged with Mr. Trump in his capacity as a candidate"
+    blocks:
+      - paragraph: {start: "Courts in which Mr. Trump brought numerous lawsuits", continues: true, notes: [147]}
+    footnotes: [140, 141, 142, 143, 144, 145, 146, 147]
+    markers: [140, 141, 142, 143, 144, 145, 146, 147]
+    must_contain: ["even his own running mate For example, Mr. Trump's Campaign Manager informed him"]
+  # A paragraph that starts at the foot of the page and runs over the break (ca3), with five notes of the paragraph above.
+  - pdf: 63
+    printed: 55
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [B, E]
+    continues_previous: true
+    opens_with: "knowingly false claims of election fraud in his calls and meetings with state officials"
+    blocks:
+      - paragraph: {start: "The Office also expected that Mr. Trump might claim", end: "129 F.3d 1293, 1308 (D.C. Cir. 1997)).", notes: []}
+    footnotes: [176, 177, 178, 179, 180]
+    markers: [176, 177, 178, 179, 180]
+  - pdf: 64
+    printed: 56
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [B]
+    continues_previous: true
+    opens_with: "criminal state of mind. In pretrial litigation"
+    blocks:
+      - paragraph: {start: "The Office concluded that if Mr. Trump chose to raise such a defense", continues: true}
+    footnotes: []
+    markers: []
+  # An appendix table (ECF number, date, description): each row belongs together, none is prose or a quotation.
+  - pdf: 146
+    printed: 138
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [tables, A]
+    xfail: reportsthatmatter-05c
+    xfail_only: [must_contain, must_not_be_quote]
+    must_contain:
+      - "23 8/10/2023 Government's Response to Court's August 3, 2023 Minute Order (Proposed Trial Date)"
+      - "28 8/11/2023 Court Protective Order Governing Discovery and Authorizing Disclosure of Grand Jury Testimony"
+    must_not_be_quote: ["Exclusion of Time Under Speedy Trial Act", "Extrajudicial Statements Do Not Prejudice These Proceedings"]
