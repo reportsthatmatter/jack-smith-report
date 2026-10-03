@@ -49,8 +49,6 @@ pages:
     printed: 32
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [B, M, F]
-    xfail: reportsthatmatter-4yp
-    xfail_only: [blocks, opens]
     continues_previous: true
     opens_with: "January 6 and, at 3:41 a.m. on January 7, Mr. Pence announced"
     blocks:
@@ -63,8 +61,8 @@ pages:
     printed: 36
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [B, C, M]
-    xfail: reportsthatmatter-ky1o, reportsthatmatter-4yp
-    xfail_only: [blocks, markers, must_contain]
+    xfail: reportsthatmatter-4yp
+    xfail_only: [markers]
     continues_previous: true
     opens_with: "House official who engaged with Mr. Trump in his capacity as a candidate"
     blocks:
