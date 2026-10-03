@@ -1,4 +1,4 @@
-import { layoutPageJoins, quoteListRunOns, pageBreakContinuations, pipeline } from "@rtm/ingest";
+import { layoutPageJoins, layoutMarkers, quoteListRunOns, pageBreakContinuations, pipeline, sequencedNoteOpenings } from "@rtm/ingest";
 
 /**
  * How this report is built. Owned by the report: every decision that shaped
@@ -30,5 +30,16 @@ export default pipeline({
     // a paragraph that fills a whole page left its continuation on the next
     // unjoined (jack-smith-report#1; reportsthatmatter-ca3, -kb4).
     pageBreakContinuations(),
+    // The scan's OCR layer sets each note marker smaller and raised, so the
+    // layout says which digits are markers. Read from the text alone, a
+    // reporter's volume or page ("437 U.S. 1 (1978)", "Hammerschmidt, 265
+    // U.S. at 188"), a treatise's volume and the appendix tables' docket
+    // numbers were linked as notes: 54 repeated and 6 out-of-order note
+    // references (reportsthatmatter-4kfr).
+    layoutMarkers(),
+    // A note that opens after a wide gap ("207      See") or on OCR junk
+    // ("277 1vfemorandum") was read as the note above's text, so its marker
+    // had nothing to link to (reportsthatmatter-4kfr).
+    sequencedNoteOpenings(),
   ],
 });

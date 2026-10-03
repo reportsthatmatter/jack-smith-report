@@ -61,8 +61,6 @@ pages:
     printed: 36
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [B, C, M]
-    xfail: reportsthatmatter-4yp
-    xfail_only: [markers]
     continues_previous: true
     opens_with: "House official who engaged with Mr. Trump in his capacity as a candidate"
     blocks:
