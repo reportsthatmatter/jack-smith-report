@@ -1,0 +1,1588 @@
+{
+ "pdf": "archive/Report-of-Special-Counsel-Smith-Volume-1-January-2025.pdf",
+ "pdf_sha256": "d0d26b1ff6fbe96e5280623c6467e70d867c306af768f9dd02556c87892d1e5c",
+ "pdf_pages": 174,
+ "model": "ibm-granite/granite-docling-258M",
+ "backend": "mlx",
+ "dpi": 150,
+ "docling": "2.132.0",
+ "mlx_vlm": "0.7.4",
+ "model_snapshots": {
+  "ibm-granite/granite-docling-258M": [
+   "982fe3b40f2fa73c365bdb1bcacf6c81b7184bfe"
+  ],
+  "ibm-granite/granite-docling-258M-mlx": [
+   "e9939db25d2f296c8678d0491c4609a8c596c50a"
+  ]
+ },
+ "pages_done": 174,
+ "total_secs": 1299.5,
+ "pages": [
+  {
+   "page": 1,
+   "secs": 6.8,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "66bef6713f7869f12d016b217dc0fb8f712ea3f7c5bed24f85b4d640580fcfb8",
+   "doctags_sha256": "f552ca21bad24a02f68ea6f96a2d56eb7132365bfb1c0b2c984188991adffec3"
+  },
+  {
+   "page": 2,
+   "secs": 6.0,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "d5bcae3ad2438629f8d4b40ed8b47a8ca15a8b59551148b93c12f5b0428c9dcb",
+   "doctags_sha256": "4301909a020389166033ecaf0e2b702fb495731407bc3501277d2db77c35e0b9"
+  },
+  {
+   "page": 3,
+   "secs": 6.2,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "27fdb2d7337cc0b5c92b4157a0dfa19945079eb78746cbcc785fda38a3643bda",
+   "doctags_sha256": "d78da34ab093cc1165a9915903857b974fc12d6f5edcaef69e905e5a38c17300"
+  },
+  {
+   "page": 4,
+   "secs": 5.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "32fa7b778de2c57898377fe31e231fcc41efcea42bb8cbcea3d734306a6b92f5",
+   "doctags_sha256": "f4e41a4259b12a3132a667c1eef0cefba2c002aeea2604cfaa8eb4cb0f1f829a"
+  },
+  {
+   "page": 5,
+   "secs": 2.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "116dda9082a7e1eda9772a10dc0f5b9fc2b6989581c84fd2f50828d040300d1f",
+   "doctags_sha256": "9f5e78836c9aa7135b7207774ea621eb029decdd2c5c9463d3187adfdf1313a5"
+  },
+  {
+   "page": 6,
+   "secs": 1.8,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "doctags_sha256": "6acf41df00e3152c5e82926fc14c3a2d9a75a1355164f24a41a67dadde13c545"
+  },
+  {
+   "page": 7,
+   "secs": 2.1,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "ab28953ca208671a0a512ec7f465310d2f01d50a76269d42b4c198ed5540a5e2",
+   "doctags_sha256": "207151e1e2711da400a4a8a8d0c142ed849aab904f127d3365db7d3d47cdfa7c"
+  },
+  {
+   "page": 8,
+   "secs": 2.1,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "doctags_sha256": "8e42a9e28bbb876aae5d8c418756cac2cefb094f9c494ff4b283ffca0331868a"
+  },
+  {
+   "page": 9,
+   "secs": 4.6,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "dbd171bfd84fafb604bd37c0870cc8122abc75ae56f3f401eeacf458637d65e4",
+   "doctags_sha256": "d5a9bbe078d307deb2648683cae70f26a2dceb5e8ab4f7ac845bbaf286ae9f21"
+  },
+  {
+   "page": 10,
+   "secs": 5.4,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "3b8ed4c9a21535c2f39fbd55b374eee2c751e681ecede57ae74dea1ea3ca5eca",
+   "doctags_sha256": "410056f08f20ce8c23b60c2b2ba11fb4b125bdf41b27efeed6d89c6ead655d8e"
+  },
+  {
+   "page": 11,
+   "secs": 4.6,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "a73ad8fb25828edfe5937cc957386d133accd82d74e0d21440b186748b6081e7",
+   "doctags_sha256": "a027ca5e4e89f5cee856c2742653ff12a52d85e43f18097a7ea765e11163622a"
+  },
+  {
+   "page": 12,
+   "secs": 7.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "4c920c02a4bec6de95e85286642638fe54f60c69272e0f49aa382acd1ba5da68",
+   "doctags_sha256": "e25a3ba28f4700cc74480426eefdea7a5a23452a241eacb9cf25818644861dc1"
+  },
+  {
+   "page": 13,
+   "secs": 8.5,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "cbebe0b8670a7e297a2d19a0065b9b7a234aae5a31baaa9d803c5576cd5f8e78",
+   "doctags_sha256": "4e8e4d5648e6d746189b224ddbc73f4ebea668c7daff70e881c26da97bedeacd"
+  },
+  {
+   "page": 14,
+   "secs": 8.5,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "fa06617c96d6c7e371e6d0d2a2036b3ed1aa6e103a5f2bf862720a4152976818",
+   "doctags_sha256": "79038d3de85b83aab6429e46874ea78e6aa9622e03eead7561bca8f36a6213d5"
+  },
+  {
+   "page": 15,
+   "secs": 7.0,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "ebd8c3da690abfb837c9a3cc890ff161e3ca0cddae2a7e2eb8bf99d07d91b559",
+   "doctags_sha256": "9218c6bdef4bc4ec959018e79a21ab6785cad11cafa4a45b3deebc5fcfc0f9ca"
+  },
+  {
+   "page": 16,
+   "secs": 6.2,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "d21adf29a2bcd3efc1acc1aacc1a68ec1708f85ba6ddca977dfa2aa29fb83d3d",
+   "doctags_sha256": "9653c38474f1f033e46cfa297b63b571072ec309b47d2025210b49e3fbfa853c"
+  },
+  {
+   "page": 17,
+   "secs": 7.0,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "4d20bf3a8de7973f0f7266d629e8d259a9d73e1f5485f361fae50920c0ce4272",
+   "doctags_sha256": "cd1e951fac47726128ef723305fede80f96401f66fd10c6c581953fac97e905f"
+  },
+  {
+   "page": 18,
+   "secs": 6.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "4084092326c4ee4707bca72017e27a0e8fcebf07033ec4635a54c67b445bab42",
+   "doctags_sha256": "1bed1309acfc6109371966b9ea8b9f39b7974e381b688bb73b51182d74c16891"
+  },
+  {
+   "page": 19,
+   "secs": 6.1,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "7d26492ca7487ed37dd84102e5dcf909404fc9d02da5438722cdc1c73297a4f9",
+   "doctags_sha256": "649ace40e651da7b789118e364161e28bce76af52a9840ab422017872320bdaf"
+  },
+  {
+   "page": 20,
+   "secs": 7.0,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "ac3ef4c53d37120e4abcbd6e51e0bae299cb533077583537ace099968deccdf1",
+   "doctags_sha256": "027e65d18fc6b31516b0d88829e6ff9ef068db6050f25077c4c3f65b7d2f2414"
+  },
+  {
+   "page": 21,
+   "secs": 9.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "94875e3a990e7d8b45e6364241a046ccbae177468693a4b78950eebf0b258b90",
+   "doctags_sha256": "7fd00e7cea9fcbd2f242202e26633a6021ac49dd55e156dea4158b0dcbf19a0e"
+  },
+  {
+   "page": 22,
+   "secs": 8.1,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "d54855e3f2880ddf09161c2076d1630699886160bc712cf534e02267b63d4d4b",
+   "doctags_sha256": "7c56ecd3ff8a9d8a394554a51fbdea41b66f1e2da8da34dab7326748ee82078a"
+  },
+  {
+   "page": 23,
+   "secs": 6.5,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "f421de8d79c455d9b104a8d6272863b4b9d2a1dfb38b370bed53d7e1f2d53d0e",
+   "doctags_sha256": "fc3f15294ff76b499fd4dd6091b3abd21e966b06db90647124bcb462451bcf98"
+  },
+  {
+   "page": 24,
+   "secs": 6.6,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "e719e40d597226527b24440dd523cf86e2d5885bf068172950112f761b606eeb",
+   "doctags_sha256": "b38bcfbfe28a61d19de283d1b6be62c76331415a4ce152294ff2fa06a19cf3b8"
+  },
+  {
+   "page": 25,
+   "secs": 6.8,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "6b1028b76ba8c95eeba63916abc6c51d22d7a0baf8eec4f763d625d96e450a0c",
+   "doctags_sha256": "aa548ae7c03acc34a5a38b2d5e8d066bbb15e9c28e091f5d6c98d29bc7ef7747"
+  },
+  {
+   "page": 26,
+   "secs": 6.0,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "d1ee87c8d277913b2a8a949350c73cc7a455745606a28c0bd4c8d2fc473de514",
+   "doctags_sha256": "b1543d29e2ad6fd3333034c6b1140e55b352b149d291b1333715774bd51b87a0"
+  },
+  {
+   "page": 27,
+   "secs": 5.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "2312961bf0c2896c509c70f124675e7ae2fcced6c029ebc5f0e4a9b5a203167a",
+   "doctags_sha256": "4072bbe6bcf55ee9b5e0c0a35e7cb74d4f8c67ecf1dd232d86867b4b8038a130"
+  },
+  {
+   "page": 28,
+   "secs": 6.5,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "0ae1e0a468164b3baa5846a5f88992c97b8f2b5b5a33f3d91536ffc0ad0200bb",
+   "doctags_sha256": "a752ec80ed895c9533b371459232ca08db56f0b34ccf9dcdff8bc598514aa0c3"
+  },
+  {
+   "page": 29,
+   "secs": 7.6,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "0f1d87760c682055165247683eabd5f1312bf64abff7c2f37c13f3ca2f507061",
+   "doctags_sha256": "7591f87c2acca00b6fa261527249a1048a8f3172f0ba73c0df22447215f54f20"
+  },
+  {
+   "page": 30,
+   "secs": 8.5,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "4931cafa37108d9da686505af7cd2069c2c7a6571ef9fa70033854f3354532a4",
+   "doctags_sha256": "c8bd1b8dd89fd87dc1c3ef4d0bf7c8fa24f946f3e5c3d5a078c9b1a760d72674"
+  },
+  {
+   "page": 31,
+   "secs": 7.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "0de0e2f7efd3d99bef06a3c1cc831dd047ff753be9e62ddd8e668249cdb135f7",
+   "doctags_sha256": "92d78bccf7ed0816fe3b00a96b3c40a5faf2e55390ff5ca7eb2b701975417d93"
+  },
+  {
+   "page": 32,
+   "secs": 7.1,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "f10aced52419295d5f9ad98ae482811d18bc27e7549b86585e3e2b345a60a98e",
+   "doctags_sha256": "d7ebb5644c277524a060a42d6db00814c972603c906555729d5efd22bacfaf09"
+  },
+  {
+   "page": 33,
+   "secs": 8.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "e99104b501cd72772a5f9a19bf23cf6b83c8550191b1434c3e7ae21d2ed87e5f",
+   "doctags_sha256": "adb3ad6a68780e5416ada70182cfc5b2e78eecc2c5bea1dd0334b6e793ccb21e"
+  },
+  {
+   "page": 34,
+   "secs": 2.4,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "5a7784a711e89a32919aefc7993fb951126abe87dd147da00664bdd965c27d72",
+   "doctags_sha256": "2df7353a3753ade26d7724a3ccfa0257e7aa43df2d1ddcc6251487d8e5d2e88b"
+  },
+  {
+   "page": 35,
+   "secs": 3.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "f63a10978271a87ec5de08fff7ae75bf62c0886f1e46dcd6bc5e6e2b8dbdb102",
+   "doctags_sha256": "396c02c686eb222475605774ec4875c1d58aa403d83abb8ec98df76f6894e139"
+  },
+  {
+   "page": 36,
+   "secs": 2.4,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "5a7784a711e89a32919aefc7993fb951126abe87dd147da00664bdd965c27d72",
+   "doctags_sha256": "aca5a18c01cf5fe78fe498f794b70df0cc66395aada333e3fb57631730d6b9f3"
+  },
+  {
+   "page": 37,
+   "secs": 49.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "b6d2a99d40f430f9c8befe5ec2cb8eefa3de4de4534636c39cafe1075619a22c",
+   "doctags_sha256": "3175662d1f1b51be25b847e6fa2edc1b79e622f96e9c5d9ff3902ca8cea37a01"
+  },
+  {
+   "page": 38,
+   "secs": 6.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "4caa66924266809de3d1c898039c096f6e1b990d224d893c860d7aea5bce1112",
+   "doctags_sha256": "39ea5a3f6969b31d5e039cc96f0eb6198d602fdaa34b5ce46c38607cc4c441be"
+  },
+  {
+   "page": 39,
+   "secs": 8.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "ab16d0c1bf6c161b37aa0e96df03f93be986f94ed4985651b5d1d900cc1b069b",
+   "doctags_sha256": "b29933be652adbff322c014c78220053bb479e6031859b6ddb32d00a07a174e3"
+  },
+  {
+   "page": 40,
+   "secs": 8.5,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "ad7cfc61337caddd12d3a92032c48266a184a482c30f0f8fe3db147baf499a32",
+   "doctags_sha256": "7226cb970b2cd7c8e0aa2b4055d8fd4a9e940a19100285b536982df81b2cd627"
+  },
+  {
+   "page": 41,
+   "secs": 5.8,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "2a42115514e23076889142a11e0371733045e1dc8282a4f37d7a46d3e9a47981",
+   "doctags_sha256": "d1118f3198839d13984bddb8a93d828b6cd1bcb00faf44991013c3ce6c673127"
+  },
+  {
+   "page": 42,
+   "secs": 6.6,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "ca9cae15561fd62610f3c77d36a7e8099f6c244f0fcc66a31a6a9ade6dbf90e6",
+   "doctags_sha256": "e0df99c65aed7ed91a4b45870d93e82ec460acebbb89060dccf91df4d3b16151"
+  },
+  {
+   "page": 43,
+   "secs": 5.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "7261db67884412342c525daab70801479057615275ac5c0fdd3e503877d8c259",
+   "doctags_sha256": "282622c8cd5deb51d916b3e423f44dc24f6e26d0e2f3fc70f2091bbaa7b636ec"
+  },
+  {
+   "page": 44,
+   "secs": 9.2,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "b0ead4ccc7580ca4d7fb5369a1b5697e17116ee9d944806b23663afdc355474f",
+   "doctags_sha256": "571389dcdb0bbaf9d0be08d9f09714a9d598fb0d8d0a35361df54f95c85469c9"
+  },
+  {
+   "page": 45,
+   "secs": 8.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "c8566d4b06f35e1f73ec8d7557b02767c340226212e61c3f3c5ba2f8612ca7ec",
+   "doctags_sha256": "1366494f3e5325d848b29b75ae67443e7ce0f291de4d391f67fdc4199e091aef"
+  },
+  {
+   "page": 46,
+   "secs": 7.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "8c9904d31e86cd8e97451c2df2ce333b5c4a95a6bb6ff6f8af560c1c8f8730d2",
+   "doctags_sha256": "bd3f4059d83e8ba7e1166fbbf8e027c0b6afef78eb34640bf0de2a2dc14e0853"
+  },
+  {
+   "page": 47,
+   "secs": 8.0,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "6e3365480bf252170885b1f0e3f8ec5529bd738f42b6667fa9caf3007ea6895e",
+   "doctags_sha256": "480117255c615e3105a1818cacc7fc1df9b5d96c4d4537cc859566459e68912f"
+  },
+  {
+   "page": 48,
+   "secs": 7.6,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "ddd4dab11d02b98340ce4d3bea5ea4e567ebe38241636e46dc6adc4e7ffefdce",
+   "doctags_sha256": "174047497ed55db2288f01bf9d11d484119001995cd2c2b756bbc9f49e93f86f"
+  },
+  {
+   "page": 49,
+   "secs": 5.0,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "9993bc4da8e90f54e2556c61acb205beb7de02c9357e548e6a77433fdf3c230d",
+   "doctags_sha256": "0ed0b88076548f9cdad0285edb90c681f78d2e26f8f360fd620b5f0b5208c24a"
+  },
+  {
+   "page": 50,
+   "secs": 5.5,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "94c0c64c975e0cad60cb9cc3eb240fbbff0127c6c99a3a9983257c95a0018532",
+   "doctags_sha256": "7a15b13dc6d300e232b4575117614aadd3a5682d0aaf8399291faf02ae1494f4"
+  },
+  {
+   "page": 51,
+   "secs": 6.0,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "7177619e96d70e1f1fd42cd33ae0a28244a8182eff38ca1b87cb00df216f1872",
+   "doctags_sha256": "fc94a668e07dffbb3ad373671a8e9c92e8f5f7bee6313333a1c5b075a4ad9262"
+  },
+  {
+   "page": 52,
+   "secs": 5.6,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "3fbea7c5309d0e1f9816c6c84c36d81715a15cba3f9e4beedb536137dc87cab6",
+   "doctags_sha256": "bdbb1438d0b2736268aa9f1a70b626f44c118210152e4dee927ca2e9da183186"
+  },
+  {
+   "page": 53,
+   "secs": 5.4,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "8d090cec153122541bfaa492dae741e44bb768633ff3485ffbe0d2b713556d1f",
+   "doctags_sha256": "b3fbe51c7f0aae82a54780cb75031ceeb1747bc2334c2326b8027b58889b327d"
+  },
+  {
+   "page": 54,
+   "secs": 5.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "a3a83e919dd1f907b0e42f0181ab6edeefc0e131cdf7e5b26056b041a420ce77",
+   "doctags_sha256": "e82ceed81b9e2a98c07e83a454c37d0cd68d2133860e8a7fd8e57fb8c14da2bd"
+  },
+  {
+   "page": 55,
+   "secs": 7.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "834156ac2c24793402cd20119758de0324bd2c7249fbae38bbfc6cc6182aa171",
+   "doctags_sha256": "4f1e4bff445bdfa26b5fbedf807fc7c54fb2a141efa565d59dd74d89affd34fd"
+  },
+  {
+   "page": 56,
+   "secs": 5.1,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "521519e995225c89db1a17532df9d5ed9540e6e55277c5c51b358b1899b62c44",
+   "doctags_sha256": "267b2a5ee0d933fc425e90df2d6f74e22fb882f39fd4df387819dda635fbb50d"
+  },
+  {
+   "page": 57,
+   "secs": 5.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "d52f3b7ffb2a1999cc0cc3710da16ab96d22842832ef56575e7123b31b4a6138",
+   "doctags_sha256": "f75d9dd2960eb9807b574ab78aa81492b83dd6c316fb2244316d997f33850519"
+  },
+  {
+   "page": 58,
+   "secs": 6.4,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "bb9d60a389999525e6b5567f6c5f4afdbc13b321debc7e06f24a306d81423587",
+   "doctags_sha256": "27578bdb74299b1f38cea9bfb691926a4bd23363d3db29fe02a4b8dd73a106f5"
+  },
+  {
+   "page": 59,
+   "secs": 6.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "22e10a982959d71bfeb21c617280bb6fd55d5fb87776f695e8d929883b7d83fd",
+   "doctags_sha256": "3c14b4cf01ece663a6ae21ad80c8b6d6f57697ffc61c1add791cda281ebc4339"
+  },
+  {
+   "page": 60,
+   "secs": 7.1,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "ecca7ed40f80bf0eb822a19a18227533939006c1b08f1c1168c3c7b8cee65d06",
+   "doctags_sha256": "517905130f677b0e4a4f9bd26fdb48672b7e637684af101a184469df92fcd9cc"
+  },
+  {
+   "page": 61,
+   "secs": 8.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "ad21b3d417b1e5dd14c1f2ae631ef8da8a0736358bf0bdb70bd4b299fa1a9dc5",
+   "doctags_sha256": "020a472199e8396d48dc22c1a0d4b2899259767f6f9040dc36a55078bb372289"
+  },
+  {
+   "page": 62,
+   "secs": 6.4,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "863654526b5ef415952294aff21f41c4321d903b13cfe79bbf0aa1db29a3381f",
+   "doctags_sha256": "331df68aa114bb2dcea899a96faa220758483ac227a459123785da715b94ba75"
+  },
+  {
+   "page": 63,
+   "secs": 8.8,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "86f1996353bd23d3d8f8cda30ab903860eda6e7905a8280fbb0c99e81b7f903d",
+   "doctags_sha256": "f246d50e7a1f51412b0692ad81a1da62180900a409b93f15916dc68a880852a4"
+  },
+  {
+   "page": 64,
+   "secs": 6.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "609198d66ba8b20273acbeab8584169e5f7aaf6c61ff626cdcdb2bc45385e5bc",
+   "doctags_sha256": "684d79bd77fab05ee1de5f11b1740699f752d44d95251b70618a23dca3520275"
+  },
+  {
+   "page": 65,
+   "secs": 9.5,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "858b20789af7dcdfe827a4ad14e67d97db55dab6ea65f2b40a1557e9c8425292",
+   "doctags_sha256": "ec2c759ff3268ad299aa5efe10a2958cb6cd7c9f1ec5656bafc09138ef0c9b2b"
+  },
+  {
+   "page": 66,
+   "secs": 9.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "84de880b5b220bd033f79f5bde9f858d499e3a86e3f4eb7f7fbc03bfc544e942",
+   "doctags_sha256": "ec47db482b30f22a59684ecd42a85b9bc0ebbb21f7ee3f6dd4b9a945a34db2d3"
+  },
+  {
+   "page": 67,
+   "secs": 7.2,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "e34943cdaac25746d90727e9837fc0ca2e942fa9201a4683601aadd502618b1b",
+   "doctags_sha256": "fe0370a540e46b660f25d7b733960d99a911051b1ca124dfde1e64c8a4c3638a"
+  },
+  {
+   "page": 68,
+   "secs": 6.1,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "25f0b736557d0902d3d1f5b9e53ee9e23de5cccd6ee518b72189a1c7a4ed4d9e",
+   "doctags_sha256": "0e6b748a56dea4d3d6ff7b8bfada152b2afc3dd1ec35142433684d80d20432e9"
+  },
+  {
+   "page": 69,
+   "secs": 6.2,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "f6863a08af8d1994ff55601cd11154843bc192f38f4fc11ae3bff4f99faad202",
+   "doctags_sha256": "31ae0c784848dbb7b785b7b7baeb8126306754efc00e3561c15d09c8bc59a854"
+  },
+  {
+   "page": 70,
+   "secs": 6.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "685badabd156a80c5124a0ae570e537cc9b7470a49a53a818f589a1b84926052",
+   "doctags_sha256": "a2f415cc5f7ae649c0f0be21c032934591d372daf5051823bac0423d390b2c0b"
+  },
+  {
+   "page": 71,
+   "secs": 6.0,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "562328b4b5b2a62e562972fa11d0e6efd670baa4a518922c669b4f5a7a132c2d",
+   "doctags_sha256": "6b31ea254b09033f9f632cb4ae99a53268b9d13ca12b360ab78d438b0929e246"
+  },
+  {
+   "page": 72,
+   "secs": 5.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "fc4be95d1eef04a5319592b08c5f48499aaaef60897203bfdbd0c0be7719f0d7",
+   "doctags_sha256": "1bdb7ba29226d2916fb9300de85b8a5529985242d93f99813ab77d722fe5088e"
+  },
+  {
+   "page": 73,
+   "secs": 5.6,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "697612392a4f05f718278ce4721a55f6d53f0d7368228dd3ba202078a090e697",
+   "doctags_sha256": "f0d99ffe047f87337bf3795b01907a884d24259155ffc0cabba7dd70b802da79"
+  },
+  {
+   "page": 74,
+   "secs": 5.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "ee5c69ebf6f5fc19fd283cd0e453876c8161c11e67d2e723c40a226d64234c95",
+   "doctags_sha256": "ba223d59c8ca77d124923280820c3b5c2b4510f378884eaf9801151f4c9a828f"
+  },
+  {
+   "page": 75,
+   "secs": 6.6,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "03b4addd61d13b5f1475d708e42c1936d6e4ba17f995f82a23106ff83e24c63d",
+   "doctags_sha256": "849317adf19cdd594c90155a91a31f279cda15049a435e321fd1e714fae3ee2e"
+  },
+  {
+   "page": 76,
+   "secs": 5.4,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "cb4c820ec32029c5e6798001cda63450fd62292cb00565fa4412748ca1d00d58",
+   "doctags_sha256": "c232c93834839f7760e03886e76311c9d5d4f65f82c3a625482aec52ff0898fb"
+  },
+  {
+   "page": 77,
+   "secs": 5.4,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "6426a6834644946c56270bc1835d603074cf011ee0834ab27b3e11b9bc47ec97",
+   "doctags_sha256": "3f01de29c0224352fd0f7257d96f41b1ac4f4123efc9bc98691aed13d998a377"
+  },
+  {
+   "page": 78,
+   "secs": 8.4,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "3facfa503af19bd44c7d413c3951869ca022c237f39e6a71476e55a9db8d130b",
+   "doctags_sha256": "e0709d8d563d564a1ea6365872b79d1a29cb0bfcc142bcf09c2d75600b453cc3"
+  },
+  {
+   "page": 79,
+   "secs": 7.4,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "2009ba075cb17de8e876d49cebcfcc8b82170a848e1ef8a554af1edbae1291a4",
+   "doctags_sha256": "a421b0c6f627749aea8beb55a35bc0878e280fef7e3ff0002e223a50807367b5"
+  },
+  {
+   "page": 80,
+   "secs": 5.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "0e99a9ff21d0a7e80afccf6ea8d2c209751e8049a5af5ec81fc943f38bcb7e02",
+   "doctags_sha256": "f9724921bc64f4efe328f816f0c444c817c76521721ef9baeda486a763cf8372"
+  },
+  {
+   "page": 81,
+   "secs": 5.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "df6262fa831c0e7d14d10a82b55bf10377d963a12b19d450f93f0fa38a5c02b4",
+   "doctags_sha256": "9b1340f8db32638933885452385731744608619e5d36ebb6c27e139f259de429"
+  },
+  {
+   "page": 82,
+   "secs": 6.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "4d670abe1d01a48d1699495b2bbc9e47c96f4443d8fa3b6db84cb4da8fde3d74",
+   "doctags_sha256": "9daffc31ae5a8ba561ca95043ae0b5e5f5f36d571fe610751e67b7237ca0a7d9"
+  },
+  {
+   "page": 83,
+   "secs": 5.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "2563fbe1e0f0d2129f586be9da9f7c26b748d7f091e1c4983030935c8cd53951",
+   "doctags_sha256": "6e2a991a11099c25e765902ce2ab35433869c6f310b804b8bcd8cdc2f720a3e2"
+  },
+  {
+   "page": 84,
+   "secs": 8.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "0e170475e40cd770538f4975f7198e701703db23caa8a3e34eadfd63e717343c",
+   "doctags_sha256": "865878d023f64e3fe4621ec4c1baa9e577e18737a1a3357b9dab243129cb2ba9"
+  },
+  {
+   "page": 85,
+   "secs": 7.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "e40c758622c5f567923e61e8865c6f98f431ff77bdf8dc340c5cbc3c2fbb35a9",
+   "doctags_sha256": "7ade6ee29cb3f6b2c8035c26cfe26289bff762852883f6d747a66a340b70569a"
+  },
+  {
+   "page": 86,
+   "secs": 6.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "e20864f578243b425bed6c783d79cc1e216bc1d1bb3ecc4262d34db90fe13e87",
+   "doctags_sha256": "af5ace802cfbdc6f24104ce30565fae1d751d9cb1b092d0ae24a047f6366446c"
+  },
+  {
+   "page": 87,
+   "secs": 9.4,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "502dbc14de4afd5f61341201da34d4a73d053a4856487c9495cfeaeb4e47d1ab",
+   "doctags_sha256": "f81bea10bd19a2fc9f45f9055b25540075062c8f691a160cc3893996e7cc1f50"
+  },
+  {
+   "page": 88,
+   "secs": 8.4,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "66fa4a2d321a5143bb15df51fbe23bdd3fcf845c6944c48ebb6e9d0f2e78330d",
+   "doctags_sha256": "66e126f7c86f7736b6dab477f717e39bcb20ee566007c8ff407baa54c39147c4"
+  },
+  {
+   "page": 89,
+   "secs": 6.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "e76175187304b2f0e7a862166b31de7ea2ec0d42a6dd85425a542213d147733d",
+   "doctags_sha256": "74c75012201aac5241696f9519921ff4accedd34311bbad74db5f88e112cadc6"
+  },
+  {
+   "page": 90,
+   "secs": 5.8,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "82dfcaf37558e9b2b573173a5cb03a38aafd5d552b24cf2121f1c5ea7fbf0239",
+   "doctags_sha256": "412d5bdbd8bd8d40c7d5cdde925a13d4cfc1b530a525fb4691be47118bda5db5"
+  },
+  {
+   "page": 91,
+   "secs": 75.5,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "9553e73a5314756e8b88943f13125b6745c5d5da30143c7927f008c1861ab002",
+   "doctags_sha256": "4e1f69650c2848014e095f06ec8584e780f7baead4770187657b5b64d8534ed4"
+  },
+  {
+   "page": 92,
+   "secs": 7.4,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "6050c4034506538180e7837651e60e5d5a4323ecebd03b42c689eca7cb064ffa",
+   "doctags_sha256": "9eb3a8680f469d8a4afb7392ad3815fe2fdcc74c6f5ca18d4ee5290d4e713333"
+  },
+  {
+   "page": 93,
+   "secs": 11.5,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "ed39bd8ffc8b835a9eeaad30f141046207d39127109248fe5ddb0b6b88d7d085",
+   "doctags_sha256": "de7af3f8882170e2b1c4ae69ae90e928d1fda4c0dd8dd0dbcc5da1a8fa923df6"
+  },
+  {
+   "page": 94,
+   "secs": 8.6,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "672167e8bf209e8f39938a0d20a3dfac3ee7d2b0cca86c6548d988871d871b8f",
+   "doctags_sha256": "f08ef6ee2f173807555c1ebc0205d2e2c4667b28f89f46985c86af57e0537285"
+  },
+  {
+   "page": 95,
+   "secs": 7.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "ee145e73beebe4d0f4e456601d6212a3cc8265f73aec38f94baa0260a84b035a",
+   "doctags_sha256": "a2b0e8b964de39dee7c896584f3073143c6189d09d2d291649cc788e0294b0d1"
+  },
+  {
+   "page": 96,
+   "secs": 7.1,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "0a2957f3fd041b210b82bf242f23e7a79f65270d13d6a1b799fe183a09fbc326",
+   "doctags_sha256": "089ff59c9c0b322c278cd8f191ae0fc0505badf3b238fa5fdec92162d1022e68"
+  },
+  {
+   "page": 97,
+   "secs": 6.6,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "48b82d2fb2714f387b1ce1a54ccddc40eb4478c12ecf7cf8872f6ef8d50275e9",
+   "doctags_sha256": "d833204af1a29425bb739efd83bea1c1eb0ce51052fba9e93904689d5b00080f"
+  },
+  {
+   "page": 98,
+   "secs": 6.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "56a29e299f4e82ecd1d75f3175115321fa173d8b7116f927ecd59b69cf06a3f6",
+   "doctags_sha256": "4c970618a0caaa432dcedd01c9b3cba984563faf3663f1b67b9e94843f44e9a5"
+  },
+  {
+   "page": 99,
+   "secs": 6.4,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "7a9d30ded91d9100dd1d9cfd3bc1438e2bc1fd6868f6f58fb61ef6ae3ba62d9f",
+   "doctags_sha256": "8bde9347772f6a75b461bac27cfa95bc41e8a5018c8135554a1700928fee52cb"
+  },
+  {
+   "page": 100,
+   "secs": 6.1,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "759529d65c74daf0766691ab546ff20f5eca040d04ec0384c4c7e8cfdab781d9",
+   "doctags_sha256": "ad7544c7b0593da0f5a0d96435d592f8a9d1abb72b332579fb566cda883a8c24"
+  },
+  {
+   "page": 101,
+   "secs": 6.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "19c705ff940a5921cf1408877283b39dc314a9ea163b524a4e454f212ab24b29",
+   "doctags_sha256": "8d69398817407cf997ceff3d5b58da3a1625e7409c704bdc17a923579e4c578b"
+  },
+  {
+   "page": 102,
+   "secs": 5.4,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "1209a6e4dcf0209f35434ffedff226166c9e91d90d9b84699cfce20c6a1f94f8",
+   "doctags_sha256": "06d807a7fa2ffff3013462d7095e19830152e21d17f263cf417701ff3ca505e5"
+  },
+  {
+   "page": 103,
+   "secs": 5.0,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "37ec8e6213f4bd0126e4f118505ccffac51bea5ec6c6cf7aa0745224a4ffc3f4",
+   "doctags_sha256": "f5e507912e0c66e00f2515f3d60ca5dc789d48d5c1c251e0e483cf8a99b1116b"
+  },
+  {
+   "page": 104,
+   "secs": 4.8,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "43a8a4d21af3a897d701e5d7c97339bab1c2f631fe47fa83cea8a344a10d201e",
+   "doctags_sha256": "d93e8f2569d2d97c77bbbaa0ff803c66acc82c08bbe80667e0bec37262ea8792"
+  },
+  {
+   "page": 105,
+   "secs": 6.5,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "b4f54c76ace9a5f270fb054a90e6e185cf6d1e9ef00821d4cc5c04941957d923",
+   "doctags_sha256": "e9953cf9a5b1c33455b7441352cd7c6947854ad56c9581799b225153e4811f2c"
+  },
+  {
+   "page": 106,
+   "secs": 5.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "7856f2c9a595946d5596a334826126b880fb40650dc815b2e782369f02aee1ed",
+   "doctags_sha256": "5b6b2b6a6d6e534d964b38d1737a2d1422d553f89d131a72381597759a060ce3"
+  },
+  {
+   "page": 107,
+   "secs": 5.2,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "6724f95de0fd7ad7e18fd1569f8a4294dd8831193874ec4b53bbebd7739502a6",
+   "doctags_sha256": "870bda925bd833aea41965b6c9f682156ae60166f1d2ade4624853044b35bb0b"
+  },
+  {
+   "page": 108,
+   "secs": 5.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "3e08c4e0eaf223dfc4e92071c9a56abc05355133ab5069abc013e6a92580dd24",
+   "doctags_sha256": "51686833dda16ce7bf4aaaf517343e94e1bbc8f9101d89e65fcef6b6bc543365"
+  },
+  {
+   "page": 109,
+   "secs": 4.8,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "d3a9124962656c8d5b8b4b87771ff5e412e00a33e42bb1fee7aee902d825bed7",
+   "doctags_sha256": "e08f2cebc18a0ddba2b8871e110ce841f4ca2431707c421d423393c2b7e79e26"
+  },
+  {
+   "page": 110,
+   "secs": 8.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "9c727494677bc3ce29dfd48a55105ea0bc42a410c27ad1aa06aec671892fc8b4",
+   "doctags_sha256": "430f5962524d81c5b67aeb222d6083f90ee1f011df094e39b26e39e506458615"
+  },
+  {
+   "page": 111,
+   "secs": 5.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "f32b407370ee142d38a84d2b1b6b01b18ca15802b6d45bdfd55d9a6bc2c4b6fd",
+   "doctags_sha256": "b45c78b7c7f51d80c87340b7b2a93b8f049d62bdb0c21188d8cea510bc9d81f6"
+  },
+  {
+   "page": 112,
+   "secs": 7.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "cb5bc5b082501cac0d0b5f3db9cd64529b9206b6216f1b872a1f74c5ad34ec48",
+   "doctags_sha256": "f1bc940cd98146f8e1315baee88efdc0718907d4d0340d995cd2bb649b08596d"
+  },
+  {
+   "page": 113,
+   "secs": 6.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "1535e32608672105783b2de603d8c494d732ee86787c79cb642bca21d592b2ad",
+   "doctags_sha256": "7d2550ba3d09ace58c1d89b979c922e7909db1f33681f5ffe405ff5e2a0069b2"
+  },
+  {
+   "page": 114,
+   "secs": 6.5,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "ff43afe50312040073aa57fa00f0c95054816553192ad2fea34e8c40ad4e8d4f",
+   "doctags_sha256": "9d05ee1ff702dd1e59eb218136f766b4f41ec9f1f24beac61b7531ba9f6ef886"
+  },
+  {
+   "page": 115,
+   "secs": 7.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "7db3b0167394f7047a8ece22766fe076c75f6fe556c09dd6c665b1489a58eca7",
+   "doctags_sha256": "31c126a67ffd05b65663a0a4b9231d3a7682b3323733ebce32ccbeb0405ec569"
+  },
+  {
+   "page": 116,
+   "secs": 7.5,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "55bbda34da2c7cb0d3762217364500a8909747ebfafeefced4092454b3c56845",
+   "doctags_sha256": "80a174b1972f6e2b70e0cc4acfa0c1dc14f825f39a2dab5b318e817cdd44acd4"
+  },
+  {
+   "page": 117,
+   "secs": 6.8,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "3b8bc1db6313dc6c1a6c887640192f00567f41dd228abac34dbfc4fb90533d96",
+   "doctags_sha256": "c47cab94b3416dd45ecaad3af7260e3a9630b6024f00e2fcbabca79dd2a5337e"
+  },
+  {
+   "page": 118,
+   "secs": 7.0,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "b99cd171f4f65c7b480a49e9f78ea1264a35f80f38a6ee10c72d21f2b0e35f1c",
+   "doctags_sha256": "25f4ab53bbbe29caf6d27fd24439841daccdc85cab205b48db974572165e7532"
+  },
+  {
+   "page": 119,
+   "secs": 7.1,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "673a7765918d840a4390df22ebaafba4c6f8d89d4bb7a0b0d635e90b72d18e5d",
+   "doctags_sha256": "7ca65b8ca2a1d934897280b04274cab5e343a5758ef171aa16a68cd0c7a27bf6"
+  },
+  {
+   "page": 120,
+   "secs": 7.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "c62d649013fdae6ebc07d3328caf163bfdd2e7417960c3b494976f586a330c37",
+   "doctags_sha256": "c2cb32db28ef936dce537d971c7d9ba965564f515e08de63a1cbfd411b576105"
+  },
+  {
+   "page": 121,
+   "secs": 6.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "22e7eadf92f87c8776810f0523625832df39e96b7363defe7a4a44ee4c4c4d9a",
+   "doctags_sha256": "4f110f1afab3040912c8b38dda9a497e0e7650ff2d573677849e967fb45a7da7"
+  },
+  {
+   "page": 122,
+   "secs": 7.5,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "b3e74899c28c4062d2b0b62fa393efe3b0bb4e972cfbff489a13284f24c047fa",
+   "doctags_sha256": "a0cc5fc45d1363d19622c6c82c5c3cf12d934dc910b2e9642664cec8bbeaff95"
+  },
+  {
+   "page": 123,
+   "secs": 6.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "5707cf6a261db4e4c1a3d9f45db0febe442a643069d6c718bc49c91659322e71",
+   "doctags_sha256": "e04d7ab8c5816f91bc14dbbb1a4c7ca52fbc2f8d4353359b563ce0b421a727b4"
+  },
+  {
+   "page": 124,
+   "secs": 7.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "fb0b7beae3354293407c99251b22d610125c2a8a7e819d1416d64a972a2a8b89",
+   "doctags_sha256": "2017da0263b11f22ff2dab5eb97e41cb828f8df6843ce8e96add6218101bc248"
+  },
+  {
+   "page": 125,
+   "secs": 7.0,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "7ed516e2886614ef382bd7577ebb6c54a1c53d44e79665252ea6c9395c9aeceb",
+   "doctags_sha256": "d3846c386a3df5f9e5016b922ed3469acdbab27f05d58e6ac2f3ca3200d8ed81"
+  },
+  {
+   "page": 126,
+   "secs": 5.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "eeb9083c2240bed80b1d0f86ea0d8e00862fdcdea4c389b953404ec41e72fe0e",
+   "doctags_sha256": "1152f994dd57232efb24dbb8ded1628a3cfd89cb4f035d08b7edbcc0cdb1a01a"
+  },
+  {
+   "page": 127,
+   "secs": 6.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "7b7e78fb2ace8817754c9c7917b125afa17516ee917b4bb03a59a97dbcf5ede8",
+   "doctags_sha256": "8dbd76e5db12a8b53e777d134fc14dfdee4f834f86e6c9eb99874454347850dd"
+  },
+  {
+   "page": 128,
+   "secs": 6.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "fcd371c90c22141921f32973c63a4dd4d4cd89ed8a26daf33ff6f33acb26bbe1",
+   "doctags_sha256": "b832b80e9c235fe7ed3e2de488797593565f75ae9304c648c8c382d6aa32154a"
+  },
+  {
+   "page": 129,
+   "secs": 7.4,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "178820dd3dfe85a305df0ad9a32947591b99bc376a0b1d5b416f888cef62637f",
+   "doctags_sha256": "c0e9b03dbf91fbda702668488269b7f04821b338ddf767d3310e6627962ac473"
+  },
+  {
+   "page": 130,
+   "secs": 6.6,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "ee6afcf4a80132cb9172b9fc4a6a9ec66cd9f5ed4ec9fd13f6660f5c3b73e07d",
+   "doctags_sha256": "9ea9deed498cacf3e7dfb9c23b23f247e94fcc99b5639ea635bec1dd577f509b"
+  },
+  {
+   "page": 131,
+   "secs": 7.2,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "8bfe8f46944ab98b8b7536944e9a589688bce3f2aaecc3bf533c3ef913a5fe4e",
+   "doctags_sha256": "1b1e1bae58e7abb41eeb5d110bb502f84a4878c95f02de4145a0fd3f91b9547f"
+  },
+  {
+   "page": 132,
+   "secs": 7.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "568cfad44ec11c5eee8c2ebe1b296b3f615a762c6d931558558c7ac5a21cced6",
+   "doctags_sha256": "8b41028f503a80c7997911c835047b66a6b4dbb7081b6724fd7a18def805dcf6"
+  },
+  {
+   "page": 133,
+   "secs": 7.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "66e400a699ffa38ba8448a2a00bfeb736d34efa78a8130475e492410a24c342a",
+   "doctags_sha256": "23b9ffa8caa6d3edfdfc5bbbb9d86064d3d02d048eed7d4de2156749826cf742"
+  },
+  {
+   "page": 134,
+   "secs": 7.5,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "d18ab75aeef7b199d6eb40b90c935fbbc8ed480b465423cf0c346d4da3041ee0",
+   "doctags_sha256": "9e9b46b504c225e07703afbb2932f6dcbdc3da81f3b11f0ac630c5c45f17c996"
+  },
+  {
+   "page": 135,
+   "secs": 6.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "a1877d3b0208e6226af6268234342f53295fef13ad9ed04d47cc8e3061c6f927",
+   "doctags_sha256": "3c0353c07f2642d229e115abdcda43d7d5ee5aa26afe17d80ef7c095ed012216"
+  },
+  {
+   "page": 136,
+   "secs": 6.6,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "f0b7a7901bfb5dbff70fd2ae4965276da511543f9626b5268ede2f788022aa53",
+   "doctags_sha256": "c88225f0e5124d55e52545b947110813aed551c4eeb62e0fe719b45c8dd34da0"
+  },
+  {
+   "page": 137,
+   "secs": 8.4,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "a097043c24c16b13e95eed6dfc163a028e31bece7b2f9dcfc297ce38bc5388f6",
+   "doctags_sha256": "7176d54176f7e9b97ea8ff4334faad18cda71997805af63fe1d8a2c8faf58bc7"
+  },
+  {
+   "page": 138,
+   "secs": 7.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "0271e02afb30e7408612401c06fe971c920329948ab91afd28009076c82eeb02",
+   "doctags_sha256": "a880f695310302e9f4cd92fe18096471e971e39b16f66b60f8c534c8894828a6"
+  },
+  {
+   "page": 139,
+   "secs": 7.8,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "941a025fe2ae72e059916a59595ec700d7fa1956e73a270ffaf9d9479683abab",
+   "doctags_sha256": "900e5ab86297af39f5e3c2dcef3db66cfa4ba2e997e87af02b79254f3b3e673a"
+  },
+  {
+   "page": 140,
+   "secs": 7.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "b1676aa349535e5bf648cceeba44b446cd679bb126f4e11af2163d09a0b752dc",
+   "doctags_sha256": "1e2792c285e8ed257ec6a61e5b56741e23c05a8fc44f8c4f55f3eebf7d6e3a8e"
+  },
+  {
+   "page": 141,
+   "secs": 6.4,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "6ab575c58e834eeeb64d8fcfd7bae7363597b7001e8b5a96f9997ac25f208732",
+   "doctags_sha256": "a3c8285c4c563aee06acf4eb763da68b1be173cb44bf986a3e1a36ee48928d62"
+  },
+  {
+   "page": 142,
+   "secs": 6.0,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "443c71b513b3cb57e849d9cd9d839804e9b513de6c1386bace90987771ef8fcd",
+   "doctags_sha256": "a3f4153cc5211e0618ac4766c5df161fddb334056381d4969f0b61e1e8c28c58"
+  },
+  {
+   "page": 143,
+   "secs": 6.8,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "3fa7f35e01c87d84205ab51d07d310da2b06cd539d258cb803a395bee2286984",
+   "doctags_sha256": "c68cb41131bf94a5a6dace36ff77aa296b92827e95eb00024d326c990084d01b"
+  },
+  {
+   "page": 144,
+   "secs": 6.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "f22f5b398e83674813cac4a160596dab8c6775eca5c548055d65e9a6761fe93d",
+   "doctags_sha256": "233b700045f54243c5c698d2d27fc0a83c7f0e6072706b2b97b439e013ed9494"
+  },
+  {
+   "page": 145,
+   "secs": 4.5,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "68052879359dc73e1179aef52e9c28cae100d9249c08d95096314f6ab949fe4b",
+   "doctags_sha256": "c8a9fef5e8fef3019590210ec4dc8d2ae38135762a76b0089e4cbeb6755f5c8c"
+  },
+  {
+   "page": 146,
+   "secs": 4.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "2388193d51f9d329c52385524ce0c67adc9226f761c28c5967c7595494bb1111",
+   "doctags_sha256": "74dfdce8fc8e41a4e59afaac126618ddaf84a900e0d0883916c5d6a2efbb8685"
+  },
+  {
+   "page": 147,
+   "secs": 3.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "doctags_sha256": "5132f7c4bba6e13fbee6a796fd7c382dbccad0a58a139502b34928d38f9d8fe6"
+  },
+  {
+   "page": 148,
+   "secs": 3.2,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "doctags_sha256": "2d38b2a276f254a41460b35c49bf98507aa1465675d6f9fda05ef4311e437066"
+  },
+  {
+   "page": 149,
+   "secs": 4.5,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "ca88a04dfa6321cdfeb95f11408d08e73af75a75d6d3f896a2fba7ab569ce065",
+   "doctags_sha256": "8fd179438d3c2ccc8cdfdecaf090f6017f71483bd8e3cf2b0751b118fd195595"
+  },
+  {
+   "page": 150,
+   "secs": 5.6,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "4324397dd0212564980049c06b08c27f4bda27fc29c9bafe711a3a4d0fa3dd28",
+   "doctags_sha256": "fe9504fb57a1b89fcceac4b9aedbd7ed4c730da8ddd09d524d64d623af627fb5"
+  },
+  {
+   "page": 151,
+   "secs": 7.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "fb5d5959a1e5a7744687dd38c25314f0e328080f41ad70ebc5dd17bf289207ee",
+   "doctags_sha256": "4983bb42db408e84aaf3c394b97badd777051cb626dd08ecff6919550f1b3671"
+  },
+  {
+   "page": 152,
+   "secs": 9.7,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "3ab403a11e9612010899ea6029974c709dd4e9732240139d8c8adedf35b08f3c",
+   "doctags_sha256": "41977977f8e106c8911205266e70a4f784ebfc77b657c1ef481efb474152a46a"
+  },
+  {
+   "page": 153,
+   "secs": 4.6,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "e0cc200d24ab452476aba6016a4d9d6447b0c0c54107983b48e8c563cc406337",
+   "doctags_sha256": "a0c7841ce826fde38f6d44fda8677e879767703f0104dcf6d02b7a147cbe3611"
+  },
+  {
+   "page": 154,
+   "secs": 4.4,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "23223cbf8baace2349d78ef2a45028a1ca84e23c80cea49cc7041812f6634705",
+   "doctags_sha256": "356dc835f2806a788e7446025ee97f86e6f02826e5ffd824b06c37cdfb8225fd"
+  },
+  {
+   "page": 155,
+   "secs": 3.0,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "e5dc819883d3c4b39a4a3f3054652d05bbceb23ae07f1d5f396b3cb309cce5fb",
+   "doctags_sha256": "94fe28e33ca8976c0cf5cb9f1fbf5174921be5d97d50ad897d4f8f59276269ce"
+  },
+  {
+   "page": 156,
+   "secs": 4.0,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "12b35e67d083d9d178bfe13158eaf9131401494c5ae98af004da3ac35c4929a8",
+   "doctags_sha256": "072d41736acde65e4e43d2cd86ba4f72baef4e9f03d7d044cb18fff61e1673de"
+  },
+  {
+   "page": 157,
+   "secs": 3.2,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "eb2b07f1b5ddad97ea589d67e40496d18fa42117b5cc85b448a8443f5a4d201a",
+   "doctags_sha256": "a3596b66ba9ef6585ba59ee59145cc2467094413d734b2be3febaa7d46e51992"
+  },
+  {
+   "page": 158,
+   "secs": 2.6,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "doctags_sha256": "6acf41df00e3152c5e82926fc14c3a2d9a75a1355164f24a41a67dadde13c545"
+  },
+  {
+   "page": 159,
+   "secs": 8.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "49eb00d34fbaaa4f01ce222fd59c3aa8640eb92f18812ae4092528bb56e355b5",
+   "doctags_sha256": "a2eae04acb03d630f755a05231bec56a70340e14c140681cf8656bc1c184070a"
+  },
+  {
+   "page": 160,
+   "secs": 9.8,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "da8322cbd7ef98fe8242d4c10510f10aa385308aa8f8f921eae00bc24c994388",
+   "doctags_sha256": "ac520b09a3cc5ad34e90633164c3073d95923c3a6b9344f51fce24ef86db39fc"
+  },
+  {
+   "page": 161,
+   "secs": 12.2,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "20aba03470f4f52770b51cb4f8d8ccdcd53676cf6df5f1af04ca94dd846811dc",
+   "doctags_sha256": "a9790ec08a844aabe2e26b073e9f00f2eb2023aeb58b5c5a063345a797ef1454"
+  },
+  {
+   "page": 162,
+   "secs": 12.2,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "b8820891ca741f7b5d04f44af9229f10369d734b740d0929d02ad0e432a37fbd",
+   "doctags_sha256": "d48fb6db7979dc4f432373e96a252f5b7d232aa2a5a96555e8e7a97038ea69cb"
+  },
+  {
+   "page": 163,
+   "secs": 10.6,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "b820e410d33362f506a91fca6fca04882345ea4ca3d531057bdea5aae0b62ff2",
+   "doctags_sha256": "b2a7b9d8818a12dec3a773b4d70055c8914dea1fe4d9e4cac19396590e5530f1"
+  },
+  {
+   "page": 164,
+   "secs": 11.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "7de093e3526b568bf54b81030c652281a01f96a62722df9dfe550f5002e5afcf",
+   "doctags_sha256": "e60a38b728fcd61525408df17d4c8881c4fc3fdcd11922e66c6a28525d527b8c"
+  },
+  {
+   "page": 165,
+   "secs": 11.2,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "6cee739cd3047cdcadbb2fa1bff09ead85aba2d36ee15a41b7c21d9fcc6d7d67",
+   "doctags_sha256": "27ae774e7ec3036413f4a411c3570457fc84af2782aa54ca0eebad0f17e76d11"
+  },
+  {
+   "page": 166,
+   "secs": 13.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "0a63c79fd727c297d6842baa2d1242b7b1c1c79def906d33f34aa113640e0f72",
+   "doctags_sha256": "91e0d723d379f6a81fc91ba4a4e615567bc4ba8766e4e279c35e29f8185ef2af"
+  },
+  {
+   "page": 167,
+   "secs": 13.5,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "6c2f34c73f3d8bcbab22e52267650a9c1d244b2606d99331a7fc1657875649f3",
+   "doctags_sha256": "4f41ad44b547ba13e41474b9a853c7635d5724a74f44580e05aafec44d235f87"
+  },
+  {
+   "page": 168,
+   "secs": 12.3,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "0ce92e354644b0000491d89eb126076668558a3d0a178350002d51f98ee750c6",
+   "doctags_sha256": "c41b6f7b8c73df7775b8f0d1b1f8ee3888e2f5cbcd88155a25029d2eb50f34bd"
+  },
+  {
+   "page": 169,
+   "secs": 12.9,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "3423940cbf4568e0da1abc55be3bad4009ed7581fd47efe95eacf256ac508cbb",
+   "doctags_sha256": "9d683bbf71024ec7204b3578e68b4aaa0bb56b7d9aeaa018a56628fe8c3a355c"
+  },
+  {
+   "page": 170,
+   "secs": 9.6,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "6b792a4d7cda8f348415c5b33d46326af70d0f1d2e010a98b4a76ff72497393b",
+   "doctags_sha256": "798acf3f5aba65f10228dd873472037f1ce328a7c1ce6bb097f4c8055b14d04b"
+  },
+  {
+   "page": 171,
+   "secs": 3.0,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "doctags_sha256": "6acf41df00e3152c5e82926fc14c3a2d9a75a1355164f24a41a67dadde13c545"
+  },
+  {
+   "page": 172,
+   "secs": 2.8,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "doctags_sha256": "6acf41df00e3152c5e82926fc14c3a2d9a75a1355164f24a41a67dadde13c545"
+  },
+  {
+   "page": 173,
+   "secs": 9.1,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "1066150f51f749caf9e38165e7263050690e29d8acfbacd5a7d570bb1ce9fcc5",
+   "doctags_sha256": "a3bc71f69303e88c4875123600f793df2c3d517e692b51b6b9d60742a4d8ab67"
+  },
+  {
+   "page": 174,
+   "secs": 11.4,
+   "backend": "mlx",
+   "dpi": 150,
+   "model": "ibm-granite/granite-docling-258M",
+   "md_sha256": "9c4e2b50fab46424ae3540cd76ea94f5c600613034a8b35ea3bb17a016251353",
+   "doctags_sha256": "2aa8223e1ef90cf17a86c16c56a639ede25f870540b5e5ca05487078202eede6"
+  }
+ ]
+}

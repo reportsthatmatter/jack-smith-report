@@ -1,0 +1,61 @@
+{
+ "report": "jack-smith-vol1",
+ "pdf": "archive/Report-of-Special-Counsel-Smith-Volume-1-January-2025.pdf",
+ "checked_by": "Claude (Sonnet 5.5), 2026-10-03",
+ "method": "Drafted from granite-docling output, then each page read against its image (pdftoppm -r 110) and every word where the draft and the PDF text layer disagree re-read at the image; footnote markers as [^n], notes in <label>.notes.txt; a note that begins on the page before keeps its label (the page holds only its tail). Not a second independent transcription: see docs/design/2026-10-03-vision-structure-pass.md for the limits.",
+ "label": "the page's %%page N%% label in full.md: the printed number, with #2 for a repeated one. Files are named by PDF page, not label (labels are not file names): a loader must map through pages[pdf].label",
+ "pages": {
+  "10": {
+   "pdf": 10,
+   "stratum": "golden",
+   "label": "2#2"
+  },
+  "13": {
+   "pdf": 13,
+   "stratum": "random",
+   "label": "4#2"
+  },
+  "19": {
+   "pdf": 19,
+   "stratum": "random",
+   "label": "11#2"
+  },
+  "21": {
+   "pdf": 21,
+   "stratum": "golden",
+   "label": "13"
+  },
+  "30": {
+   "pdf": 30,
+   "stratum": "golden",
+   "label": "22"
+  },
+  "40": {
+   "pdf": 40,
+   "stratum": "golden",
+   "label": "32"
+  },
+  "44": {
+   "pdf": 44,
+   "stratum": "golden",
+   "label": "36"
+  },
+  "63": {
+   "pdf": 63,
+   "stratum": "golden",
+   "label": "55"
+  },
+  "64": {
+   "pdf": 64,
+   "stratum": "golden",
+   "label": "56"
+  },
+  "146": {
+   "pdf": 146,
+   "stratum": "golden",
+   "table": true,
+   "label": "138"
+  }
+ },
+ "sample": "random: seeded shuffle (random.seed(20261003)) over body pages 12-169 not in golden.yaml; golden: pages golden.yaml already verifies (the pipeline was tuned on them)"
+}
