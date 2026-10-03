@@ -1,0 +1,351 @@
+report: jack-smith-vol1
+adjudicated: 2026-10-03
+by: "Claude (Opus 5.5) subagent, blind to the rules' call, reading the page images; every disagreement with the pipeline re-read"
+method: "Mini-reference for a report with no clean edition (38s.15; scripts/ingest/pagebreak-sample.ts, `pnpm ingest referee draft`). Population: every page turn, the last line of running text on the old page and the first on the new (pdftohtml -xml; notes, running heads and folios left out). 15 drawn by a seeded shuffle (stratum random), then 5 from each confidence tier of the layout rules at @rtm/ingest v0.21.0 (stratum tier-low/medium/high; a short tier topped up from the others). Each break was answered from the rendered page images (the foot of the old page, the head of the new one), blind to the rules' call: does a new block (paragraph, bullet, numbered paragraph, quotation, heading) start between the two lines, or does the block run on? prev and next are the running-text lines either side; when notes, a caption or a heading stand between, the verdict says whether the paragraph's text continues on the new page, and `between` names what stands between. `set` assigns the break to development or held-out (alternating within each stratum, seeded); `tier` and `rule` are the rules' call at v0.21.0 when drawn."
+seed: "38s.15"
+breaks:
+  - page: 2
+    prev: "guided all of us  throughout our careers. "
+    next: "Attorney  General  Edward  H.  Levi,  who  assumed  the  Department's  helm  in  the  wake  of "
+    verdict: split
+    stratum: random
+    set: dev
+    tier: high
+    rule: "split: font changes across the break"
+    between: none
+    image: true
+    note: "old page ends paragraph; new page starts with first-line indent"
+  - page: 7
+    prev: "January 7,  2025 "
+    next: "TABLE OF CONTENTS "
+    verdict: split
+    stratum: random
+    set: held-out
+    tier: high
+    rule: "split: unfinished, next line indented"
+    between: other
+    image: true
+    above: "Washington, D.C. "
+    drawn: "high; Washington, D.C. / TABLE OF CONTENTS"
+    note: "title page ends with the date 'January 7, 2025' (id 10), not id 9; new page is Table of Contents heading"
+  - page: 8
+    prev: "the law was served by Mr.  Trump's prosecution ....................................... 83 "
+    next: "Mr.  Trump  Was  Not  Subject  to  Effective  Prosecution  in  Another "
+    verdict: split
+    stratum: tier-medium
+    set: dev
+    tier: medium
+    rule: "split: finished, next line flush"
+    between: none
+    image: true
+    note: "contents entry: label \"B.\" and its entry are separate lines; next is the entry text (reviewer)"
+  - page: 20
+    prev: "Ultimately,  as explained below,  Mr.  Trump and co-conspirators used the fraudulent certificates to "
+    next: "try  to  obstruct  the  congressional  certification  proceeding.  The  fraudulent  elector  plan's  arc  is "
+    verdict: join
+    stratum: tier-high
+    set: dev
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    drawn: "high; Vice  President\"). / try  to  obstruct  the  congressional  c"
+    note: "sentence unfinished ('certificates to' / 'try to obstruct'); prev corrected from footnote 39 to last body line"
+  - page: 22
+    prev: "litigation  were  resolved  in  Mr.  Trump's  favor. 47 Indeed,  the  co-conspirators  deliberately "
+    next: "withheld  from  the  elector  nommees  information  showing  otherwise. 48 This  deception  was "
+    verdict: join
+    stratum: tier-high
+    set: held-out
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    drawn: "high; Conspirator 6,  and others  12/11/2020). / withheld  from  the  elector  nommees  i"
+    note: "last body line 'litigation were resolved ... Indeed, the co-conspirators deliberately' is not in old_lines (they start at id 26, all footnotes); id 5 estimated from text-layer order; sentence carries on 'withheld from the elector nominees'"
+  - page: 25
+    prev: "power to  perpetuate his fraud claims and retain office.  Mr.  Trump was  frustrated  with the Justice "
+    next: "Department because  its  criminal  investigations  had  identified  no  evidence  of substantial  fraud 62 "
+    verdict: join
+    stratum: random
+    set: dev
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    note: "sentence unfinished ('frustrated with the Justice' / 'Department'); prev corrected from footnote 61 to body line"
+  - page: 37
+    prev: "AFP via Getty Images) 117 "
+    next: "After  his  speech,  Mr.  Trump  returned  to  the  White  House  and,  at  around  1 :30  p.m., "
+    verdict: unjudgeable
+    stratum: random
+    set: dev
+    tier: high
+    rule: "split: font changes across the break"
+    between: figure
+    image: true
+    drawn: "high; involvement-i.n-capitol-ri. / After  his  speech,  Mr.  Trump  returne"
+    note: "PDF pp.34-36 are photograph pages (captions and notes only): no running-text line on the old page; the paragraph before ends on p.33 (reviewer)"
+  - page: 41
+    prev: "defendants who,  because of their dangerousness, are detained at the District of Columbia jail. 139 "
+    next: "THE LAW "
+    verdict: split
+    stratum: tier-medium
+    set: held-out
+    tier: medium
+    rule: "split: finished, next line flush"
+    between: notes
+    image: true
+    note: "heading \"II. THE LAW\": label and title are separate lines; next is the title (reviewer)"
+  - page: 45
+    prev: "some  instances  prompted  him  to  issue  public  rebukes  acknowledging  those  decisions. 147 Still "
+    next: "other  federal  and  state  officials-some  appointed  by  Mr.  Trump,  and  others  who  publicly "
+    verdict: join
+    stratum: random
+    set: held-out
+    tier: high
+    rule: "R1: unfinished, next opens lower case"
+    between: notes
+    image: true
+    drawn: "high; [https://perma.cc/32U2-BTA6]; / other  federal  and  state  officials-so"
+    note: "last body line 'some instances ... Still' is not in old_lines (they start at id 22, all footnotes); id 14 estimated from text-layer order; sentence carries on 'other federal and state officials'"
+  - page: 50
+    prev: "(\"It has  long been established that this statutory language is  not confined to  fraud  as  that term has "
+    next: "been  defined  in  the  common  law.  It  reaches  any  conspiracy  for  the  purpose  of  impairing, "
+    verdict: join
+    stratum: tier-high
+    set: dev
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: none
+    image: true
+    note: "sentence and quotation unfinished ('as that term has' / 'been defined')"
+  - page: 63
+    prev: "handful  of isolated  instances.  On  a  repeated  basis,  he  and  co-conspirators  used  specific  and "
+    next: "knowingly  false  claims of election fraud  in his  calls and meetings with state  officials,  in an effort "
+    verdict: join
+    stratum: random
+    set: dev
+    tier: high
+    rule: "R1: unfinished, next opens lower case"
+    between: notes
+    image: true
+    drawn: "high; ly 0 1/06/2021);  SCO-00016926 at 20-24. / knowingly  false  claims of election fra"
+    note: "sentence unfinished ('used specific and' / 'knowingly false claims'); prev corrected from footnote 175 to body line"
+  - page: 76
+    prev: "whether  any  potential  charged  case  should  be  joined  with  Mr.  Trump's  or  brought  separately. "
+    next: "Because  the  Office  reached  no  final  conclusions  and  did  not  seek  indictments  against  anyone "
+    verdict: join
+    stratum: tier-low
+    set: dev
+    tier: low
+    rule: "R2: finished, but a full justified line and a flush next line"
+    between: notes
+    image: true
+    drawn: "low; any of these other potential charges. / Because  the  Office  reached  no  final"
+    note: "body ends 'brought separately.' with full stop, but new page's first line 'Because the Office reached...' is flush left where paragraphs indent: paragraph runs on. Body line not in old_lines (they start at id 21, footnote 193); id 16 estimated from text-layer order"
+  - page: 78
+    prev: "Nat.  Bank ofBoston v.  Bellotti, 435  U.S.  765,  788-789 (1978). "
+    next: "The  Office  was  cognizant of Mr.  Trump's free  speech rights  during  the investigation and "
+    verdict: split
+    stratum: random
+    set: held-out
+    tier: high
+    rule: "split: font changes across the break"
+    between: none
+    image: true
+    note: "paragraph ends at foot; new page starts with first-line indent"
+  - page: 80
+    prev: "Congress;  when he  attempted to enlist Mr.  Pence with false  claims of election fraud  and pressure; "
+    next: "and  when he  used,  and  attempted  to  leverage,  an  angry  crowd  of his  supporters-fueled by  Mr. "
+    verdict: join
+    stratum: tier-low
+    set: held-out
+    tier: low
+    rule: "R2: finished, but a full justified line and a flush next line"
+    between: notes
+    image: true
+    note: "sentence unfinished ('pressure;' / 'and when he used'); prev corrected from footnote 197 to body line"
+  - page: 84
+    prev: "Trump attacked them publicly  on Twitter,  a social media application on which he  had  more than "
+    next: "80  million  followers. 199 Inevitably,  threats  and  intimidation to  these  officials  followed. 20 For "
+    verdict: join
+    stratum: tier-medium
+    set: dev
+    tier: medium
+    rule: "split: next opens on a label (layout)"
+    between: none
+    image: true
+    note: "sentence unfinished ('more than' / '80 million followers')"
+  - page: 86
+    prev: "Pence!\" 212 "
+    next: "In  addition to  prompting  these  threats  against  the  targets  of Mr.  Trump's  criticisms,  Mr. "
+    verdict: split
+    stratum: random
+    set: held-out
+    tier: high
+    rule: "split: finished"
+    between: notes
+    image: true
+    above: "Pence  for  their  ire  and  chanting,  \"Where  is  Pence?  Bring  Him  Out!\" 211 and,  \"Hang  Mike "
+    drawn: "high;  Bring  Him  Out!\" 211 and,  \"Hang  Mike / In  addition to  prompting  these  threa"
+    note: "prev corrected to 'Pence!' 212 (id 14), the true last body line; new page starts with first-line indent"
+  - page: 89
+    prev: "detailing  his  efforts  to  evacuate  a  U.S.  Senator and  her  staff from  an  unmarked  hiding  spot,  one "
+    next: "U.S.  Capitol  Police  officer  described  the  Senator  as  \"afraid  for  her  life,\"  \"shaking,\"  and  \"very, "
+    verdict: join
+    stratum: random
+    set: held-out
+    tier: low
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    note: "sentence unfinished ('hiding spot, one' / 'U.S. Capitol Police officer')"
+  - page: 102
+    prev: "Department  of Defense,  and  Office  of the  Director  of National  Intelligence. 251 Further,  the "
+    next: "Office  collected  more  than  one  terabyte  of data  from  publicly  available  sources  such  as  social "
+    verdict: join
+    stratum: random
+    set: dev
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    note: "sentence unfinished ('Further, the' / 'Office collected'); prev corrected from folio to body line"
+  - page: 104
+    prev: "decisions  could  be  made,  and  any  necessary  indictments  could  be  returned  by  the  summer  of "
+    next: "2023,  long  before the  election.  The Office  had  no  interest  in  affecting the  presidential  election, "
+    verdict: join
+    stratum: tier-high
+    set: held-out
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: none
+    image: true
+    note: "sentence unfinished ('the summer of' / '2023')"
+  - page: 110
+    prev: "Election Case according to  the  schedules  set down by  the district court, the  D.C.  Circuit, and the "
+    next: "Supreme Court. 256 Given the  gravity of the  issues presented by the charges, the  Office sought to "
+    verdict: join
+    stratum: tier-low
+    set: held-out
+    tier: low
+    rule: "split: unfinished, no line under next"
+    between: none
+    image: true
+    note: "sentence unfinished ('and the' / 'Supreme Court')"
+  - page: 111
+    prev: "election campaign, the  courts  should always  yield.  See,  e.g.,  ECF No.  30  at  11  (proposing April "
+    next: "2026 trial  date,  emphasizing  that \"[n]o  major party  presidential  candidate  has  ever been charged "
+    verdict: join
+    stratum: tier-medium
+    set: held-out
+    tier: medium
+    rule: "split: next opens on a label (layout)"
+    between: notes
+    image: true
+    drawn: "medium; sitivities policy in  both of its cases. / 2026 trial  date,  emphasizing  that \"[n"
+    note: "sentence unfinished ('(proposing April' / '2026 trial date'); body line not in old_lines (they start at id 18, footnote 256); id 16 estimated from text-layer order"
+  - page: 119
+    prev: "overturn  the  results  of the  2020  election,  Mr.  Pence  moved  to  quash  the  subpoena,  invoking  the "
+    next: "Speech  or  Debate  Clause.  In  re  Press  Application,  No.  23-mc-35,  ECF  No.  11-1  at  1 (D.D.C. "
+    verdict: join
+    stratum: random
+    set: dev
+    tier: high
+    rule: "split: font changes across the break"
+    between: none
+    image: true
+    note: "sentence unfinished ('invoking the' / 'Speech or Debate Clause')"
+  - page: 127
+    prev: "concern  presidential  decision-making,  in  an  abundance  of  caution  given  the  unprecedented "
+    next: "circumstance of investigating the  former President, the Government made certain notifications to "
+    verdict: join
+    stratum: random
+    set: dev
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: none
+    image: true
+    note: "sentence unfinished ('unprecedented' / 'circumstance')"
+  - page: 128
+    prev: "presidential-communications privilege  because  they  were  not made  in  the  process of arriving  at "
+    next: "presidential  decisions.  See  Media  Access  ECF  No.  32-2  at  17.  As  the  Supreme  Court  has "
+    verdict: join
+    stratum: random
+    set: held-out
+    tier: high
+    rule: "split: font changes across the break"
+    between: notes
+    image: true
+    drawn: "high; rom  Trump Attorney to Witness Counsel). / presidential  decisions.  See  Media  Ac"
+    note: "sentence unfinished ('arriving at' / 'presidential decisions'); prev corrected from folio to body line"
+  - page: 131
+    prev: "Office  responded  by  obtaining a superseding indictment to  comply with the  Court's decision and "
+    next: "by  seeking  district court rulings  that the  charged conduct and expected evidence at trial  was  not "
+    verdict: join
+    stratum: random
+    set: held-out
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: none
+    image: true
+    note: "sentence unfinished ('decision and' / 'by seeking')"
+  - page: 139
+    prev: "such  types  of  prosecutions  of  ex-Presidents,\"  for  example  over  claims  of  insufficient "
+    next: "enforcement  of federal  law,  \"could  quickly  become  routine,\"  thus  \"enfeebling\"  the  presidency "
+    verdict: join
+    stratum: tier-low
+    set: held-out
+    tier: low
+    rule: "R1: unfinished, next line flush"
+    between: none
+    image: true
+    note: "sentence unfinished ('insufficient' / 'enforcement of federal law')"
+  - page: 140
+    prev: "that  Mr.  Trump  is  \"absolutely  immune  from  prosecution  for  the  alleged  conduct  involving  his "
+    next: "discussions  with  Justice  Department  officials\"  and  involving  his  \"threatened  removal  of the "
+    verdict: join
+    stratum: tier-low
+    set: dev
+    tier: low
+    rule: "R1: unfinished, next line flush"
+    between: none
+    image: true
+    note: "sentence and quotation unfinished ('involving his' / 'discussions')"
+  - page: 167
+    prev: "succinctly,  that  \"the  price  of the  final  report  is  often  too  high.\"8 Deputy  Attorney  General  Eric  Holder "
+    next: "added:  \"the reporting requirement goes directly  against most traditions and practices of law enforcement "
+    verdict: join
+    stratum: tier-medium
+    set: held-out
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    drawn: "medium; atement of Attorney General Janet Reno). / added:  \"the reporting requirement goes "
+    note: "sentence unfinished ('Eric Holder' / 'added:'); prev line 'succinctly ... Deputy Attorney General Eric Holder' not in old_lines (they start at id 30, footnote 5); id 26 estimated; next id 2 skips letter running head (date, page no.)"
+  - page: 170
+    prev: "Smith's activities since March 2024 have  not yet been released.  It is  clear,  however, that the  total  figure "
+    next: "will  greatly exceed-by an extraordinarily  wide  margin-what all  of this  lawfare  was  actually  worth to "
+    verdict: join
+    stratum: random
+    set: held-out
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    drawn: "medium; res,  https://www.justice.gov/sco-smith. / will  greatly exceed-by an extraordinari"
+    note: "sentence unfinished ('the total figure' / 'will greatly exceed'); prev corrected from footnote 21 to body line id 34"
+  - page: 173
+    prev: "(Via Email) "
+    next: "U.S.  Department of Justice "
+    verdict: split
+    stratum: tier-high
+    set: held-out
+    tier: high
+    rule: "split: font changes across the break"
+    between: other
+    image: true
+    above: "JP  Cooney, Deputy Special Counsel "
+    note: "end of one letter (cc block) to start of a new letter (letterhead) on the new page"
