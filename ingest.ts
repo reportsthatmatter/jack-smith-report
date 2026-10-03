@@ -1,4 +1,4 @@
-import { layoutPageJoins, quoteListRunOns, pageBreakContinuations, pipeline } from "@rtm/ingest";
+import { layoutPageJoins, quoteListRunOns, pageBreakContinuations, pageHeadFolios, foliosInStep, pipeline } from "@rtm/ingest";
 
 /**
  * How this report is built. Owned by the report: every decision that shaped
@@ -30,5 +30,10 @@ export default pipeline({
     // a paragraph that fills a whole page left its continuation on the next
     // unjoined (jack-smith-report#1; reportsthatmatter-ca3, -kb4).
     pageBreakContinuations(),
+    // The Blanche letter appended after the report numbers its own pages with a running head, "January 6, 2025" over
+    // "Page 2": read as the folio, and the head taken off (reportsthatmatter-ssfk).
+    pageHeadFolios({ above: /^\s*January 6, 2025\s*$/ }),
+    // The contents page's folio, roman "ii", is OCR'd as "11": out of step with the pages round it, so dropped.
+    foliosInStep(),
   ],
 });
