@@ -1,4 +1,4 @@
-import { layoutPageJoins, quoteListRunOns, pageBreakContinuations, pageHeadFolios, foliosInStep, pipeline } from "@rtm/ingest";
+import { layoutPageJoins, layoutMarkers, quoteListRunOns, pageBreakContinuations, pageHeadFolios, foliosInStep, pipeline, sequencedNoteOpenings } from "@rtm/ingest";
 
 /**
  * How this report is built. Owned by the report: every decision that shaped
@@ -35,5 +35,16 @@ export default pipeline({
     pageHeadFolios({ above: /^\s*January 6, 2025\s*$/ }),
     // The contents page's folio, roman "ii", is OCR'd as "11": out of step with the pages round it, so dropped.
     foliosInStep(),
+    // The scan's OCR layer sets each note marker smaller and raised, so the
+    // layout says which digits are markers. Read from the text alone, a
+    // reporter's volume or page ("437 U.S. 1 (1978)", "Hammerschmidt, 265
+    // U.S. at 188"), a treatise's volume and the appendix tables' docket
+    // numbers were linked as notes: 54 repeated and 6 out-of-order note
+    // references (reportsthatmatter-4kfr).
+    layoutMarkers(),
+    // A note that opens after a wide gap ("207      See") or on OCR junk
+    // ("277 1vfemorandum") was read as the note above's text, so its marker
+    // had nothing to link to (reportsthatmatter-4kfr).
+    sequencedNoteOpenings(),
   ],
 });
