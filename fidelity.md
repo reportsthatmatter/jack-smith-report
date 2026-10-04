@@ -1,6 +1,6 @@
 # Fidelity review — Report of Special Counsel Jack Smith, Volume One: The Election Case
 
-Pages: 169  ·  Footnotes: 291  ·  Auto-fixes applied: 260  ·  Human corrections: 3
+Pages: 169  ·  Footnotes: 293  ·  Auto-fixes applied: 260  ·  Human corrections: 7
 
 **84 open**, 0 reviewed and judged correct.
 

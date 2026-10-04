@@ -22,27 +22,56 @@ corrections:
   # blank line spans the blocks and joins them (reportsthatmatter-2dw). Needs
   # the @rtm/ingest release that carries spanning corrections. (The footnote
   # marker is still a bare number with a space before it at this stage; it is
-  # linked later in the pipeline.)
+  # linked later in the pipeline.) Since layoutMarkers links the markers from the
+  # layout, which has no raised "136" in the garble, the reference is written
+  # out (reportsthatmatter-4kfr).
   - id: c-0001
     where: { volume: 1, printed: 32 }
     find: "\"hostaoes\n\n> b ' \" 136 reminisced about\n\nJanuary 6"
-    replace: "\"hostages,\" 136 reminisced about January 6"
+    replace: "\"hostages,\"[^136] reminisced about January 6"
     reason: OCR garble of "hostages," split the sentence into a paragraph and a quotation; checked against the scan (PDF p.40, printed p.32)
     added: 2026-10-02
 
   # Superscript markers the OCR misread: note 50 as "5°" (printed p.14) and
   # note 55 fused to the dash after it, "certification⁵⁵—a fact" read as
-  # "55-a" (printed p.15). Rewritten (note 50 to the plain "<space><number>"
-  # form the pipeline links, note 55 to its explicit reference, since no
-  # sentence punctuation precedes it for the linker to key on), so the notes attach to their text rather than showing
-  # only under "Notes not linked in the text" (reportsthatmatter-4yp).
+  # "55-a" (printed p.15). Rewritten (note 50 to its explicit reference, since
+  # layoutMarkers sees no raised "50" in "5°"; note 55's dash restored after the
+  # reference layoutMarkers makes), so the notes attach to their text rather than showing
+  # only under "Notes not linked in the text" (reportsthatmatter-4yp, -4kfr).
   - id: c-0002
     find: "targeted states. 5° For example"
-    replace: "targeted states. 50 For example"
+    replace: "targeted states.[^50] For example"
     reason: superscript note 50 OCR'd as "5°"; checked against the scan (PDF p.22, printed p.14)
     added: 2026-10-02
   - id: c-0003
-    find: "congressional certification 55-a fact"
+    find: "congressional certification[^55]-a fact"
     replace: "congressional certification[^55]—a fact"
-    reason: superscript note 55 followed by an em dash, OCR'd as "55-a"; checked against the scan (PDF p.23, printed p.15)
+    reason: superscript note 55 followed by an em dash, OCR'd as "55-a" (layoutMarkers links the 55; the dash stays a hyphen); checked against the scan (PDF p.23, printed p.15)
     added: 2026-10-02
+  # The caption's marker is set raised but the OCR layer gives it at the
+  # caption's size, so layoutMarkers does not see it; the text linker it
+  # replaced did (reportsthatmatter-4kfr).
+  - id: c-0004
+    where: { volume: 1, printed: 27 }
+    find: "LightRocket/Getty Images) 115"
+    replace: "LightRocket/Getty Images)[^115]"
+    reason: superscript note 115 after the caption, not raised in the OCR layer; checked against the scan (PDF p.35, printed p.27)
+    added: 2026-10-04
+  # Superscript markers whose last digit the OCR dropped (reportsthatmatter-4kfr):
+  # read from the text they were linked to the wrong note (70 as 7, 140 as 14)
+  # or not at all; layoutMarkers leaves them bare.
+  - id: c-0005
+    find: "their electoral votes. 7 Co-Conspirator 4"
+    replace: "their electoral votes.[^70] Co-Conspirator 4"
+    reason: superscript note 70 OCR'd as "7"; checked against the scan (PDF p.26, printed p.18)
+    added: 2026-10-04
+  - id: c-0006
+    find: "his own running mate. 14 For example"
+    replace: "his own running mate.[^140] For example"
+    reason: superscript note 140 OCR'd as "14"; checked against the scan (PDF p.44, printed p.36)
+    added: 2026-10-04
+  - id: c-0007
+    find: "to these officials followed. 20 ° For instance"
+    replace: "to these officials followed.[^200] For instance"
+    reason: superscript note 200 OCR'd as "20 °"; checked against the scan (PDF p.84, printed p.76)
+    added: 2026-10-04

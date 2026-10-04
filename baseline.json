@@ -1,11 +1,11 @@
 {
-  "markdownSha": "74ae65762e5d6cfc6361d65175212d6d2bf617d4c1c0378fdb1776ce8683c08e",
-  "words": 61652,
+  "markdownSha": "9b8ecfff5522ceca2cacbce471cb54b6f06c6585709849f9c8cb470aa70b442b",
+  "words": 61731,
   "blocks": {
     "heading": 47,
     "quote": 75,
     "list": 41,
-    "paragraph": 417
+    "paragraph": 428
   },
   "headings": [
     "DELIVERY BY HAND",
@@ -56,7 +56,7 @@
     "DELIVERY BY HAND",
     "Notes"
   ],
-  "footnotes": 291,
+  "footnotes": 293,
   "pageMarkers": 145,
   "poppler": "26.08.0"
 }
