@@ -31,8 +31,9 @@ export default pipeline({
     // unjoined (jack-smith-report#1; reportsthatmatter-ca3, -kb4).
     pageBreakContinuations(),
     // The Blanche letter appended after the report numbers its own pages with a running head, "January 6, 2025" over
-    // "Page 2": read as the folio, and the head taken off (reportsthatmatter-ssfk).
-    pageHeadFolios({ above: /^\s*January 6, 2025\s*$/ }),
+    // "Page 2": read as the folio, and the head taken off (reportsthatmatter-ssfk). Its letterhead footer ("Blanche
+    // Law PLLC / 99 Wall Street, Suite 4460 …") goes with it, from the foot of every page of the letter (reportsthatmatter-5sf1).
+    pageHeadFolios({ above: /^\s*January 6, 2025\s*$/, foot: /^\s*(?:Blanche Law PLLC|99 Wall Street, Suite 4460\b|\(212\) 716-1250\b)/ }),
     // The contents page's folio, roman "ii", is OCR'd as "11": out of step with the pages round it, so dropped.
     foliosInStep(),
     // The scan's OCR layer sets each note marker smaller and raised, so the
