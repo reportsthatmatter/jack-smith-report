@@ -6,6 +6,10 @@ Only the first volume has been published on Jan 7th 2025.
 
 Archived from https://www.justice.gov/storage/Report-of-Special-Counsel-Smith-Volume-1-January-2025.pdf into `archive` folder
 
+## Licence
+
+Text of the report: Public domain: a work of the United States Government (17 U.S.C. § 105). Our markup, processing and editorial additions: CC BY 4.0. Code: MIT. Evidence, caveats and the full statement are in [LICENSE](LICENSE); the MIT text is in [LICENSE-MIT](LICENSE-MIT).
+
 ## Rebuilding the text
 
 `full.md` is generated, never hand-edited. `ingest.ts` is the whole recipe —
