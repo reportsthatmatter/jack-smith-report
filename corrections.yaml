@@ -75,3 +75,52 @@ corrections:
     replace: "to these officials followed.[^200] For instance"
     reason: superscript note 200 OCR'd as "20 °"; checked against the scan (PDF p.84, printed p.76)
     added: 2026-10-04
+  # Note markers set on headings, which the heading cleanup took off with the heading's number, so the notes were
+  # defined but never referenced (reportsthatmatter-pq0, -npg3 (E)).
+  - id: c-0008
+    where: { volume: 1, printed: 2 }
+    find: "THE RESULTS OF THE INVESTIGATION"
+    replace: "THE RESULTS OF THE INVESTIGATION[^1]"
+    reason: superscript note 1 on the heading "I. THE RESULTS OF THE INVESTIGATION"; checked against the scan (PDF p.10, printed p.2)
+    added: 2026-11-12
+  - id: c-0009
+    where: { volume: 1, printed: 92 }
+    find: "The Investigative Process"
+    replace: "The Investigative Process[^248]"
+    reason: superscript note 248 on the heading "A. The Investigative Process"; checked against the scan (printed p.92)
+    added: 2026-11-12
+  # The appendix's tables (PDF pp.146-154; the rows are written by the appendixFilings pass): OCR misreadings in the
+  # section titles and number cells, and a note marker on a section title (reportsthatmatter-05c, -npg3 (F)).
+  - id: c-0010
+    where: { volume: 1, printed: 143 }
+    find: "(PARTIALLY UNSEALEDJ"
+    replace: "(PARTIALLY UNSEALED)[^274]"
+    reason: 'the OCR read "UNSEALED)" as "UNSEALEDJ", and dropped superscript note 274 on the title; checked against the scan (PDF p.151, printed p.143)'
+    added: 2026-11-12
+  - id: c-0011
+    find: "PRESIDENTIAL IMlvfUNITY APPELLATE LITIGATION"
+    replace: "PRESIDENTIAL IMMUNITY APPELLATE LITIGATION"
+    reason: OCR of "MM"; checked against the scan (PDF p.149, printed p.141)
+    added: 2026-11-12
+  - id: c-0012
+    find: "ECF No. 2.),.,,.,.), 9/5/2024"
+    replace: "ECF No. 233, 9/5/2024"
+    reason: OCR garble of the number cell "233"; checked against the scan (PDF p.148, printed p.140)
+    added: 2026-11-12
+  - id: c-0013
+    find: "ECF No. 61, 9/2712023"
+    replace: "ECF No. 61, 9/27/2023"
+    reason: OCR dropped the slash in the date "9/27/2023"; checked against the scan (PDF p.146, printed p.138)
+    added: 2026-11-12
+  # The Blanche letter's note 1, its marker after a stray space before the full stop (reportsthatmatter-npg3 (G)).
+  - id: c-0014
+    find: "(the \"Draft Report\") . 1"
+    replace: "(the \"Draft Report\").[^1]"
+    reason: superscript note 1 of the appended letter, read as a bare number; checked against the scan (PDF p.159, letter p.1)
+    added: 2026-11-12
+  # OCR word error the golden page records (reportsthatmatter-n0l).
+  - id: c-0015
+    find: "elector nommees information"
+    replace: "elector nominees information"
+    reason: OCR read "nominees" as "nommees"; checked against the scan (PDF p.21, printed p.13)
+    added: 2026-11-12

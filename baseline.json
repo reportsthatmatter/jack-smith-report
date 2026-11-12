@@ -1,18 +1,18 @@
 {
-  "markdownSha": "12ae380409f454435c18cf65f95e082fcb0c8b9ad8d290312b1c18d19c131615",
-  "words": 61497,
+  "markdownSha": "2b83b85466f536cdf8378214e9774130f678040d90d6cd9f758ec5fe8936c883",
+  "words": 61687,
   "blocks": {
     "heading": 47,
-    "quote": 66,
-    "list": 41,
-    "paragraph": 415
+    "quote": 27,
+    "list": 174,
+    "paragraph": 313
   },
   "headings": [
     "DELIVERY BY HAND",
     "FINAL REPORT ON THE SPECIAL COUNSEL'S INVESTIGATIONS AND PROSECUTIONS VOLUME ONE: THE ELECTION CASE REPORT ON EFFORTS TO INTERFERE WITH THE LAWFUL TRANSFER",
     "THE CERTIFICATION OF THE ELECTORAL COLLEGE VOTE",
     "VOLUME ONE: THE ELECTION CASE",
-    "THE RESULTS OF THE INVESTIGATION",
+    "THE RESULTS OF THE INVESTIGATION[^1]",
     "Mr. Trump's Pressure on State Officials",
     "Mr. Trump's Fraudulent Elector Plan",
     "Mr. Trump's Misuse of Official Power Through the Justice Department",
@@ -29,7 +29,7 @@
     "There Was No Adequate Non-Criminal Alternative to Prosecution",
     "Mr. Trump's Conduct Had No Historical Analogue",
     "INVESTIGATIVE PROCEDURE AND POLICY",
-    "The Investigative Process",
+    "The Investigative Process[^248]",
     "Investigative and Prosecutive Procedures in an Election Year",
     "The Department's Election Year Sensitivities Policy",
     "Pre-Indictment Procedures",
@@ -45,7 +45,7 @@
     "Immunity Litigation",
     "CONCLUSION",
     "APPENDIX: KEY FILINGS IN SIGNIFICANT LITIGATION DISTRICT COURT CRIMINAL LITIGATION",
-    "SELECTED GRAND JURY LITIGATION (PARTIALLY UNSEALEDJ",
+    "SELECTED GRAND JURY LITIGATION (PARTIALLY UNSEALED)[^274]",
     "PERRY SEARCH WARRANT LITIGATION",
     "TWITTER SEARCH WARRANT LITIGATION",
     "ADDENDUM",
@@ -56,7 +56,7 @@
     "DELIVERY BY HAND",
     "Notes"
   ],
-  "footnotes": 293,
+  "footnotes": 306,
   "pageMarkers": 145,
   "poppler": "26.08.0"
 }

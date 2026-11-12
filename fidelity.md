@@ -1,6 +1,6 @@
 # Fidelity review — Report of Special Counsel Jack Smith, Volume One: The Election Case
 
-Pages: 169  ·  Footnotes: 293  ·  Auto-fixes applied: 260  ·  Human corrections: 7
+Pages: 169  ·  Footnotes: 306  ·  Auto-fixes applied: 260  ·  Human corrections: 15
 
 **84 open**, 0 reviewed and judged correct.
 
@@ -55,7 +55,7 @@ file under `dismissed:` and the entry leaves this queue for good.
 | likely | digit inside a word | `1vfemorandum` | Vol 1 · PDF p.152 |  pdf [https ://perma.cc/6CLJ-BETZ]. 277 1vfemorandum Opinion, United States District Court f |
 | likely | digit inside a word | `8NW` | Vol 1 · PDF p.152 | CF%20N 0%2044. pdf [https ://perma.cc/3 8NW- EXV3]. 279 Memorandum and Order, Unit |
 | likely | digit inside a word | `7PZQ` | Vol 1 · PDF p.152 | y%2024%2C%202023.pdf [https ://perma.cc/7PZQ-NZK6]. 280 Memorandum Opinion, United  |
-| likely | digit inside a word | `R2Z` | Vol 1 · PDF p.154 | ings/bydate/2023/5 [https://penna. cc/S R2Z-G L5 B]. 28 -1 See In re Sealed Case, 7 |
+| likely | digit inside a word | `R2Z` | Vol 1 · PDF p.154 | ings/bydate/2023/5 [https://penna. cc/S R2Z-G L5 B]. 284 See In re Sealed Case, 77F |
 | likely | digit inside a word | `oppo1iunity` | Vol 1 · PDF p.161 | m knew, Smith's proposal afforded zero oppo1iunity for President Trump to assist counsel i |
 | likely | digit inside a word | `2i` | Vol 1 · PDF p.174 |  2i!::  |
 | possible | possible rn/m confusion | `attorneys` | Vol 1 · PDF p.11 | ue strategies that Mr. Trump's Campaign attorneys would not; Co-Conspirator 2, a privat |
@@ -70,7 +70,7 @@ file under `dismissed:` and the entry leaves this queue for good.
 | possible | possible rn/m confusion | `Governments` | Vol 1 · PDF p.80 | perpetuating himself in power. "In free Governments," Benjamin Franklin explained, "the ru |
 | possible | possible rn/m confusion | `fairness` | Vol 1 · PDF p.104 | arding the Department's reputation for fairness and nonpartisanship, requmng that prose |
 | possible | case break inside a word | `ofJu` | Vol 1 · PDF p.127 | k Garland, Attorney General, Department ofJustice Communications with the White Hous |
-| possible | possible rn/m confusion | `Adjournment` | Vol 1 · PDF p.146 |  Section 4 Filing and an Adjournment of the CIPA Section 5 Deadline  |
+| possible | possible rn/m confusion | `Adjournment` | Vol 1 · PDF p.146 |  Access to CIPA Section 4 Filing and an Adjournment of the CIPA Section 5 Deadline • ECF  |
 | possible | possible rn/m confusion | `international` | Vol 1 · PDF p.2 | reer prosecutor in local, national, and international settings over the last three decades, w |
 | possible | case break inside a word | `ofWi` | Vol 1 · PDF p.8 |  B. Threats and Harassment ofWitnesses ................................ |
 | possible | case break inside a word | `ofFo` | Vol 1 · PDF p.33 | ; SCO-066146 I 9 at 21: 13-22:07 (Video ofFox News Coverage 0 1/06/2021). 108See ECF |
@@ -93,8 +93,8 @@ file under `dismissed:` and the entry leaves this queue for good.
 | possible | possible rn/m confusion | `alternatives` | Vol 1 · PDF p.123 | ceeding; (2) whether less restrictive alternatives would adequately address that risk; and |
 | possible | possible rn/m confusion | `governs` | Vol 1 · PDF p.135 |  evade the criminal responsibility that governs his fellow citizens," id. at 219.  |
 | possible | possible rn/m confusion | `alternatively` | Vol 1 · PDF p.140 |  undertaken in an official capacity or, alternatively, constituted a private scheme with priv |
-| possible | possible rn/m confusion | `Governing` | Vol 1 · PDF p.146 |  Court Protective Order Governing Discovery and Authorizing 28 8/11 |
-| possible | case break inside a word | `ofAr` | Vol 1 · PDF p.148 | ) 232 9/5/2024 Transcript ofArraignment and Status Conference 2.),.,,. |
+| possible | possible rn/m confusion | `Governing` | Vol 1 · PDF p.146 | . 28, 8/11/2023: Court Protective Order Governing Discovery and Authorizing Disclosure of |
+| possible | case break inside a word | `ofAr` | Vol 1 · PDF p.148 | ) • ECF No. 232, 9/5/2024: Transcript ofArraignment and Status Conference • ECF  |
 | possible | possible rn/m confusion | `Internet` | Vol 1 · PDF p.161 | without allowing counsel to access the Internet or use their own electronic devices whi |
 | possible | possible rn/m confusion | `Fernandez` | Vol 1 · PDF p.161 | fect on these issues. See, e.g., Bravo­ Fernandez v. United States, 580 U.S. 5, 7-8 (2016 |
 | possible | possible rn/m confusion | `Mahorney` | Vol 1 · PDF p.164 | established beyond a reasonable doubt," Mahorney v. Wallman, 917 F.2d 469, 471 n.2 (10th |
