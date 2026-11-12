@@ -1,4 +1,6 @@
-import { layoutPageJoins, layoutMarkers, quoteListRunOns, pageBreakContinuations, pageHeadFolios, foliosInStep, pipeline, sequencedNoteOpenings } from "@rtm/ingest";
+import { footnoteResets, layoutPageJoins, layoutMarkers, quoteListRunOns, pageBreakContinuations, pageHeadFolios, foliosInStep, pipeline, sequencedNoteOpenings } from "@rtm/ingest";
+import { appendixFilings } from "./appendix";
+import { noteOpenings } from "./note-openings";
 
 /**
  * How this report is built. Owned by the report: every decision that shaped
@@ -18,6 +20,11 @@ export default pipeline({
     { path: "archive/Report-of-Special-Counsel-Smith-Volume-1-January-2025.pdf", sha256: "d0d26b1ff6fbe96e5280623c6467e70d867c306af768f9dd02556c87892d1e5c" },
   ],
   passes: [
+    // The appendix's tables of filings (PDF pp.146-154), one bulleted line per row (reportsthatmatter-05c).
+    appendixFilings,
+    // Note numbers the OCR misread at the page foot ("11 Id." for 71, "rn" for 214), written as printed
+    // (reportsthatmatter-4yp, -npg3).
+    noteOpenings,
     // A paragraph run over a page break that opens on a capital, a digit or a
     // quotation mark (or follows a full stop on a justified page) joins when the
     // layout says it runs on: no first-line indent, same face (reportsthatmatter-38s.10).
@@ -34,6 +41,9 @@ export default pipeline({
     // "Page 2": read as the folio, and the head taken off (reportsthatmatter-ssfk). Its letterhead footer ("Blanche
     // Law PLLC / 99 Wall Street, Suite 4460 …") goes with it, from the foot of every page of the letter (reportsthatmatter-5sf1).
     pageHeadFolios({ above: /^\s*January 6, 2025\s*$/, foot: /^\s*(?:Blanche Law PLLC|99 Wall Street, Suite 4460\b|\(212\) 716-1250\b)/ }),
+    // The Blanche letter (PDF p.159 on) numbers its own notes from 1: without the reset, its notes 1-4, 9 and 10
+    // were read as body paragraphs, out of the report's sequence (reportsthatmatter-npg3 (G)).
+    footnoteResets([{ page: 159, note: 1 }]),
     // The contents page's folio, roman "ii", is OCR'd as "11": out of step with the pages round it, so dropped.
     foliosInStep(),
     // The scan's OCR layer sets each note marker smaller and raised, so the

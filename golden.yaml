@@ -8,8 +8,6 @@ pages:
     printed: 2
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [I, G, B]
-    xfail: reportsthatmatter-pq0
-    xfail_only: [markers]
     continues_previous: true
     opens_with: "defenses that the Office expected Mr. Trump to raise at trial"
     blocks:
@@ -23,8 +21,6 @@ pages:
     printed: 13
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [E, B, M]
-    xfail: reportsthatmatter-n0l
-    xfail_only: [must_contain]
     continues_previous: true
     opens_with: "sent directions to the Trump electors in each targeted state"
     blocks:
@@ -89,14 +85,13 @@ pages:
       - paragraph: {start: "The Office concluded that if Mr. Trump chose to raise such a defense", continues: true}
     footnotes: []
     markers: []
-  # An appendix table (ECF number, date, description): each row belongs together, none is prose or a quotation.
+  # An appendix table (ECF number, date, description): each row belongs together, none is prose or a quotation. The
+  # pipeline has no table block, so each row is one list item, "ECF No. 23, 8/10/2023: ..." (appendixFilings, 05c).
   - pdf: 146
     printed: 138
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [tables, A]
-    xfail: reportsthatmatter-05c
-    xfail_only: [must_contain, must_not_be_quote]
     must_contain:
-      - "23 8/10/2023 Government's Response to Court's August 3, 2023 Minute Order (Proposed Trial Date)"
-      - "28 8/11/2023 Court Protective Order Governing Discovery and Authorizing Disclosure of Grand Jury Testimony"
+      - "ECF No. 23, 8/10/2023: Government's Response to Court's August 3, 2023 Minute Order (Proposed Trial Date)"
+      - "ECF No. 28, 8/11/2023: Court Protective Order Governing Discovery and Authorizing Disclosure of Grand Jury Testimony"
     must_not_be_quote: ["Exclusion of Time Under Speedy Trial Act", "Extrajudicial Statements Do Not Prejudice These Proceedings"]
